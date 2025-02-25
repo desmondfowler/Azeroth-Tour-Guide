@@ -1,0 +1,84 @@
+# Regions
+- Ahn'Qiraj
+- Alterac Mountains
+- Alterac Valley
+- Arathi Basin
+- Arathi Highlands
+- Ashenvale
+- Azshara
+- Badlands
+- Blackfathom Deeps
+- Blackrock Depths
+- Blackrock Mountain
+- Blackrock Spire
+- Blackwing Lair
+- Blasted Lands
+- Burning Steppes
+- Caverns of Time
+- Darkshore
+- Darnassus
+- Deadwind Pass
+- Deeprun Tram
+- Desolace
+- Dire Maul
+- Dun Morogh
+- Durotar
+- Duskwood
+- Dustwallow Marsh
+- Eastern Plaguelands
+- Elwynn Forest
+- Emerald Forest
+- Felwood
+- Feralas
+- Gnomeregan
+- Hillsbrad Foothills
+- Ironforge
+- Loch Modan
+- Maraudon
+- Molten Core
+- Moonglade
+- Mulgore
+- Naxxramas
+- Onyxia's Lair
+- Orgrimmar
+- Ragefire Chasm
+- Razorfen Downs
+- Razorfen Kraul
+- Redridge Mountains
+- Ruins of Ahn'Qiraj
+- Scarlet Monastery
+- Scholomance
+- Searing Gorge
+- Shadowfang Keep
+- Silithus
+- Silverpine Forest
+- Stonetalon Mountains
+- Stormwind City
+- Stranglethorn Vale
+- Stratholme
+- Sunken Temple
+- Swamp of Sorrows
+- Tanaris
+- Teldrassil
+- Test Dungeon
+- The Barrens
+- The Deadmines
+- The Great Sea
+- The Hinterlands
+- The Stockade
+- The Temple of Atal'Hakkar
+- The Veiled Sea
+- Thousand Needles
+- Thunder Bluff
+- Tirisfal Glades
+- Uldaman
+- Un'Goro Crater
+- Undercity
+- Wailing Caverns
+- Warsong Gulch
+- Western Plaguelands
+- Westfall
+- Wetlands
+- Winterspring
+- Zul'Farrak
+- Zul'Gurub
