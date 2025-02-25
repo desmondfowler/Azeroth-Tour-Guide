@@ -1,15 +1,16 @@
 [workspace]
-members = ["frontend", "backend"]
-resolver = "3"  # Add this to silence the warning
+resolver = "2"
+members = [
+    "ui",
+    "web",
+    "desktop",
+    "mobile",
+    "server",
+]
 
-[profile]
+[workspace.dependencies]
+dioxus = { version = "0.6.0" }
 
-[profile.wasm-dev]
-inherits = "dev"
-opt-level = 1
-
-[profile.server-dev]
-inherits = "dev"
-
-[profile.android-dev]
-inherits = "dev"
+# workspace
+ui = { path = "ui" }
+server = { path = "server" }
