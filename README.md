@@ -4,17 +4,17 @@
 
 ## MVP Features (Bare Essentials)
 - **Interactive Map**  
-  - STATIC: A static SVG of Azeroth—good ol’ Kalimdor and Eastern Kingdoms.  
-  - NEXT: Make regions clickable linking to location details.
-  - NEXT: Dynamic map with highlights. 
+  - STATIC: Start with an SVG of Azeroth—Kalimdor, Eastern Kingdoms, the classics.  
+  - NEXT: Clickable regions that link to location details.  
+  - NEXT: Dynamic map with highlights, Rust-style. 
 - **Location Listings**  
-  - STATIC: Hardcoded list of spots like Orgrimmar or Stormwind.
-  - NEXT: Add descriptions, maybe lore-friendly from the wiki?  
-  - NEXT: Include images, maybe screenshots from WoW?  
+  - STATIC: Hardcoded list—think Orgrimmar, Stormwind, etc.  
+  - NEXT: Add descriptions, maybe pull some lore from WoWpedia.  
+  - NEXT: Toss in screenshots from WoW for images. 
 - **Search Functionality**  
-  - STATIC: A search bar that doesn’t do much yet.  
-  - NEXT: Filter the location list by search term.  
-  - NEXT: Highlight search hits on the dynamic map.
+  - STATIC: A search bar that just sits there for now.  
+  - NEXT: Filter locations based on what’s typed.  
+  - NEXT: Highlight matches on the dynamic map. 
 
 ## Development Steps
 1. **Scope MVP**  
@@ -27,7 +27,7 @@
 4. **Front End Testing**  
    - Throw it at Chrome, Firefox, maybe my phone—see what breaks. Ask friends for feedback.  
 5. **Back End**  
-   - NSome sort of `Rust` server. Initial research pulls up `Actix` or `Rocket`?
+   - Some sort of `Rust` server. Initial research pulls up `Actix` or `Rocket`?
    - SQLite or PGSQL? MySQL? Want a relational, not something like MongoDB  
    - REST API?
 6. **Integration**  
@@ -36,9 +36,9 @@
    - Write some `cargo test` unit tests for the API. 
    - Smash frontend and backend together, pray it works.  
 8. **Deploy**  
-   - Deploy on `Rust`-friendly host. Set up monitoring!  
+   - Deploy on `Rust`-friendly host. Add monitoring so I know if it dies.
 
 ## Future Features
-- **Core Ideas:** Themed trips like “Undead Road Trip” or Dwarven BBQ Tour”. Maybe recs for inns and taverns. Fake booking system?
-- **UX:** User logins, custom recs, sharing, maybe local events like Darkmoon Faire dates. 
--  **Cash Flow?**
+- **Core Ideas**: Themed trips like “Undead Road Trip” or “Dwarven Ale Crawl.” Inn and tavern recs. Maybe a fake booking system?  
+- **UX**: Logins, custom recs, sharing, maybe Darkmoon Faire event alerts.  
+- **Cash Flow?**: No clue yet—ads? Fake premium tiers?  
