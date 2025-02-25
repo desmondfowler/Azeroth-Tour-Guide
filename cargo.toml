@@ -1,3 +1,15 @@
 [workspace]
 members = ["frontend", "backend"]
 resolver = "3"  # Add this to silence the warning
+
+[profile]
+
+[profile.wasm-dev]
+inherits = "dev"
+opt-level = 1
+
+[profile.server-dev]
+inherits = "dev"
+
+[profile.android-dev]
+inherits = "dev"
