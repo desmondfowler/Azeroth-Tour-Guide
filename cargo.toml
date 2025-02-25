@@ -1,0 +1,3 @@
+[workspace]
+members = ["frontend", "backend"]
+resolver = "3"  # Add this to silence the warning
