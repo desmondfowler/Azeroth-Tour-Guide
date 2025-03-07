@@ -1,0 +1,8 @@
+[build]
+target = "index.html"
+dist = "dist"
+release = true
+
+[[assets]]
+source = "assets"
+target = "assets"
