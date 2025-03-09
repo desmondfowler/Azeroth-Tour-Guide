@@ -8,13 +8,13 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 ## Tech Stack
 
-- **Backend**: Python with Flask (lightweight, Python-y goodness)
-- **Frontend**: React (for that slick, interactive vibe)
+- **Backend**: Python with Flask
+- **Frontend**: React
 - **Database**: Start with MySQL, move to PostgreSQL when I feel like it
-- **Containerization**: Docker (because containers are cool)
+- **Containerization**: Docker
 - **Orchestration**: Kubernetes on HomeLab, then AWS EKS if money allows
-- **CI/CD**: GitHub Actions (automate all the things)
-- **Cloud**: AWS if money allows (flexible hosting for Python apps)
+- **CI/CD**: GitHub Actions
+- **Cloud**: AWS if money allows
 
 ## MVP Features (Bare Essentials)
 
@@ -44,22 +44,22 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
    - Ensure mobile-responsive design so it doesn’t suck on my phone.  
 
 3. **Frontend Testing**  
-   - Throw it at Chrome, Firefox, maybe my phone—see what breaks. Ask friends for feedback.  
+   - Throw it at Chrome, Firefox, maybe my phone, see what breaks. Ask friends for feedback.  
 
 4. **Backend**  
-   - Use **Python with Flask** for the server (no Rust servers like Actix or Rocket, keeping it Python).  
-   - Start with **MySQL** for the database (relational, not MongoDB—still deciding if PostgreSQL later).  
-   - Build a REST API to feed the frontend some sweet, sweet data.  
+   - Use **Python with Flask** for the server.  
+   - Start with **MySQL** for the database.  
+   - Build a REST API to feed the frontend.  
 
 5. **Integration**  
-   - Fetch API data to replace static content. Make it dynamic, baby.  
+   - Fetch API data to replace static content.
 
 6. **Backend Testing**  
-   - Write some `pytest` unit tests for the API (no `cargo test` since we’re not in Rust-land).  
+   - Write some `pytest` unit tests for the API.  
    - Smash frontend and backend together, pray it works.  
 
 7. **Deploy**  
-   - Dockerize it and deploy on HomeLab Kubernetes first (AWS later if I’m rich).  
+   - Dockerize it and deploy on HomeLab Kubernetes first.  
    - Add monitoring so I know if it dies in the middle of the night.  
 
 ## Future Features
