@@ -1,4 +1,3 @@
-// components/Header.jsx
 import "../css/tailwind.css";
 
 export default function Header() {
@@ -12,7 +11,6 @@ export default function Header() {
                 src="atg-logo.jpg"
                 className="h-14 w-auto rounded-full border-2 border-amber-700 shadow-md"
                 alt="Azeroth Tour Guide logo"
-
               />
             </a>
           </div>
@@ -26,12 +24,14 @@ export default function Header() {
             </a>
             <a
               href="/azeroth"
-              className="text-amber-400 hover:text-white transition-all duration-200 font-semibold tracking-wide drop-shadow-sm"            >
+              className="text-amber-400 hover:text-white transition-all duration-200 font-semibold tracking-wide drop-shadow-sm"
+            >
               Azeroth
             </a>
             <a
               href="/contact"
-              className="text-amber-400 hover:text-white transition-all duration-200 font-semibold tracking-wide drop-shadow-sm"            >
+              className="text-amber-400 hover:text-white transition-all duration-200 font-semibold tracking-wide drop-shadow-sm"
+            >
               Contact
             </a>
           </nav>
