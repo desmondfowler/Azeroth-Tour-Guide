@@ -4,10 +4,10 @@
 export default function Azeroth() {
   return (
     <main className="flex-grow py-2">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 ">
         <img 
           src="azeroth.jpg" 
-          className="mt-2 w-full max-w-5xl mx-auto rounded-lg shadow-md" 
+          className="mt-2 w-full max-w-full mx-auto rounded-lg shadow-md" 
           alt="A paper-art style map of Azeroth" 
         />
       </div>

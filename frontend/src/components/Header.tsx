@@ -8,7 +8,7 @@ export default function Header() {
           <div className="flex-shrink-0">
             <a href="/">
               <img
-                src="atg-logo.jpg"
+                src="/atg-logo.jpg"
                 className="h-14 w-auto rounded-full border-2 border-amber-700 shadow-md"
                 alt="Azeroth Tour Guide logo"
               />

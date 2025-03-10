@@ -8,6 +8,7 @@ import "./css/tailwind.css";
 import Home from './pages/Home';
 import AzerothPage from './pages/AzerothPage';
 import Contact from './pages/Contact';
+import RegionPage from './pages/RegionPage';
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/azeroth' element={<AzerothPage />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path="/region/:name" element={<RegionPage />} />
       </Routes>
     </Router>
   )
