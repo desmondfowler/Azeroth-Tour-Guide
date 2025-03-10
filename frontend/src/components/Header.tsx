@@ -3,13 +3,13 @@ import "../css/tailwind.css";
 
 export default function Header() {
   return (
-    <header className="bg-gray-900 border-b border-gray-800 shadow-lg sticky top-0 z-10">
+    <header className="bg-gray-950 border-b border-amber-800 shadow-xl sticky top-0 z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <img
               src="atg-logo.jpg"
-              className="h-12 w-auto rounded-3xl"
+              className="h-14 w-auto rounded-full border-2 border-amber-700 shadow-md"
               alt="Azeroth Tour Guide logo"
             />
           </div>
@@ -17,20 +17,18 @@ export default function Header() {
           <nav className="hidden sm:flex items-center space-x-6">
             <a
               href="/"
-              className="text-gray-300 hover:text-amber-500 transition-colors duration-200 font-medium"
+              className="text-amber-400 hover:text-white transition-all duration-200 font-semibold tracking-wide drop-shadow-sm"
             >
               Home
             </a>
             <a
               href="/azeroth"
-              className="text-gray-300 hover:text-amber-500 transition-colors duration-200 font-medium"
-            >
+              className="text-amber-400 hover:text-white transition-all duration-200 font-semibold tracking-wide drop-shadow-sm"            >
               Azeroth
             </a>
             <a
               href="/contact"
-              className="text-gray-300 hover:text-amber-500 transition-colors duration-200 font-medium"
-            >
+              className="text-amber-400 hover:text-white transition-all duration-200 font-semibold tracking-wide drop-shadow-sm"            >
               Contact
             </a>
           </nav>
@@ -38,7 +36,7 @@ export default function Header() {
           <div className="sm:hidden">
             <button
               type="button"
-              className="text-gray-300 hover:text-amber-500 p-2"
+              className="text-amber-400 hover:text-white p-2 transition-all duration-200"
               aria-label="Toggle menu"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
