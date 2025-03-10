@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "gen-tailwind": "npx @tailwindcss/cli -i ./src/css/styles.css -o ./src/css/tailwind.css --watch"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -29,5 +30,5 @@
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0"
   },
-  "proxy" : "https://127.0."
+  "proxy" : "https://127.0.0.1:5000"
 }
