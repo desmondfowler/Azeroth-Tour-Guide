@@ -1,0 +1,585 @@
+{
+    "regions": [
+        {
+            "id": 1,
+            "name": "Ahn'Qiraj",
+            "description": "Ahn'Qiraj (pronounced \"AWN-key-rawj\",[1]), or the qiraji empire,[2][3] is the city-kingdom of the qiraji found in the southern part of Silithus. It was originally a titan research station which housed the old god C'Thun before being commandeered by the aqir, who would become the qiraji led by the Twin Emperors: Vek'nilash and Vek'lor.[4] Following the War of the Shifting Sands, the kingdom was contained from the rest of the world by the Scarab Wall, until it was opened again recently.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 2,
+            "name": "Alterac Mountains",
+            "description": "Alterac Mountains is the location of the former nation of Alterac and the city-state of Dalaran, and its chief settlements included Alterac City, Dalaran and Strahnbrad. The central mountains have been overrun by ogres, while the organization called the Syndicate controls Strahnbrad and other areas. Dalaran was enclosed within an impregnable magic shell before the city was lifted in the air and moved to Northrend. A high, wooded region, the Alterac Mountains see much rainfall and its skies are c...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 3,
+            "name": "Alterac Valley",
+            "description": "Alterac Valley (AV) is a battleground in the continuing war between the Horde and the Alliance. The two opposing sides are the Frostwolf Clan (led by General Drek'Thar) and the Stormpike Guard (also known as the Stormpike Expedition, led by General Vanndar Stormpike), both of whom lay claim to this secluded territory.  Alongside the Generals are their two Captains, Captain Galvangar and Captain Balinda Stonehearth, respectively. Players can queue for Alterac Valley from level 45. It was original...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 4,
+            "name": "Arathi Basin",
+            "description": "Arathi Basin (pronounced Ah-RATH-ee)[1] (AB for short) is a fast and exciting battleground, located in the Arathi Highlands. The Basin itself is known for its rich mines, fertile land and skilled craftsmen[2] and is coveted by both the Horde and the Alliance. The Forsaken Defilers and the League of Arathor have arrived at Arathi Basin to wage war over these natural resources and claim them on behalf of their respective sides. A resource race battleground, players must dominate the Basin's bases ...",
+            "faction": "Neutral",
+            "type": "Battleground"
+        },
+        {
+            "id": 5,
+            "name": "Arathi Highlands",
+            "description": "The Arathi Highlands are located in southeastern Lordaeron, east of Hillsbrad Foothills and south of the Hinterlands. It is a flat but craggy region that has traditionally been the home of the humans of Arathor, who gave the region its name. The main hubs of activity are now Refuge Pointe and Hammerfall, which houses bases for Alliance and Horde, respectively. The large city of Stromgarde lies in ruins to the southwest, and pockets of Syndicate resistance dot the land. The Boulderfist ogres also...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 6,
+            "name": "Ashenvale",
+            "description": "Ashenvale, also known as Ashenvale Forest,[1] is a wilderness region south of Darkshore and Felwood, west of Azshara, and north of the Stonetalon Mountains and the Barrens. Ashenvale is also the term used for the larger forested region which includes most of western Hyjal including Azshara.[2] It is the ancestral homeland of the night elves, who remain in control of several holdings through the zone, including Astranaar, Maestra's Post, Silverwind Refuge, Silverwing Grove, and the Shrine of Aess...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 7,
+            "name": "Azshara",
+            "description": "Azshara is located in northeastern Kalimdor, east of Ashenvale, south of Winterspring, and north of Durotar. It is a beautiful coastal area cloaked in eternal autumn. The trees and other flora are tinged in brilliant oranges and reds, and nearer the coast, great cliffs and sandy beaches line the ocean. The region's inhabitants can make life hard for the nature lover, however. Enraged ghosts, vicious satyr, stalking naga and ferocious wildlife can quickly put an end to those who venture too far f...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 8,
+            "name": "Badlands",
+            "description": "The Badlands is a region in Khaz Modan accessed via the Searing Gorge to the west and Loch Modan to the north.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 9,
+            "name": "Blackfathom Deeps",
+            "description": "Blackfathom Deeps (also known as: BFD) is a partially underwater dungeon in northwestern Ashenvale. It is accessed by a stair-lined shaft that requires one to swim through an underwater entrance. The deeps are comprised of a series of watery caverns leading deep to a temple devoted to the Old Gods. The Twilight's Hammer cult runs this shrine, and it has joined forces with local naga and satyrs to defend the unholy creature, Aku'mai. It seems an Old God may be underneath the land.[1]",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 10,
+            "name": "Blackrock Depths",
+            "description": "Blackrock Depths is the deepest part of Blackrock Mountain, ruled by the Dark Iron dwarves who were led by Emperor Dagran Thaurissan. Several minions of the Firelord Ragnaros also make their home in these lava-lined depths.",
+            "faction": "Neutral",
+            "type": "Raid"
+        },
+        {
+            "id": 11,
+            "name": "Blackrock Mountain",
+            "description": "Blackrock Mountain is a zone between the Burning Steppes and the Searing Gorge, linking the two regions. This zone is deceptively small and appears empty when first entered - however, it was at one point, without doubt, among the most dangerous places in Azeroth. It was hotly contested between the forces of Ragnaros and his Dark Iron servants on one side and the black dragon Nefarian and his orc minions on the other. Within these black stones, there are numerous inhabited areas. Inside this unna...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 12,
+            "name": "Blackrock Spire",
+            "description": "No description available.",
+            "faction": "Neutral",
+            "type": "Dwarven fortress"
+        },
+        {
+            "id": 13,
+            "name": "Blackwing Lair",
+            "description": "Blackwing Lair is a level 60, 40-man raid dungeon located at the top of Blackrock Mountain, home to Nefarian. It was implemented in patch 1.6.",
+            "faction": "Neutral",
+            "type": "Raid"
+        },
+        {
+            "id": 14,
+            "name": "Blasted Lands",
+            "description": "The Blasted Lands bear that name for a reason: they were twisted by the magic that brought the Dark Portal into being, spewing the rampaging Horde into Azeroth.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 15,
+            "name": "Burning Steppes",
+            "description": "The Burning Steppes hold the only accessible land passage from the Kingdom of Stormwind to Khaz Modan and Lordaeron. The highway is thus well traveled, but still very dangerous. Now virtually abandoned by the Kingdom of Stormwind, the Burning Steppes is controlled by minions of the black dragonflight and agents of the firelord Ragnaros.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 16,
+            "name": "Caverns of Time",
+            "description": "Located in the eastern part of Tanaris, the Caverns of Time (or simply the Caverns)[1] contain various portals to different key historical periods and events in Warcraft history. The caverns act as a crossroads for the various timeways,[2] and through them one can travel back and forth along the ebb and flow of time.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 17,
+            "name": "Darkshore",
+            "description": "Darkshore is a long strip of coast on the northwestern part of Kalimdor. It is known for its characteristically shadowed woods and rocky beaches, littered with ancient ruins and mountainside caves. The night elves of Teldrassil claim the shore as part of their new kingdom, and sentinels patrol the road from the port of Auberdine towards Ashenvale to the south.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 18,
+            "name": "Darnassus",
+            "description": "Darnassus (aka Darnassus City),[1] now known as Remains of Darnassus, was the capital city of the night elves of the Alliance, found in western Teldrassil. The High Priestess, Tyrande Whisperwind, resided in the Temple of the Moon, surrounded by other sisters of Elune and her mate, the Archdruid Malfurion Stormrage.",
+            "faction": "Neutral",
+            "type": "City"
+        },
+        {
+            "id": 19,
+            "name": "Deadwind Pass",
+            "description": "Deadwind Pass is a contested zone located in central Azeroth, joining the southeastern reaches of the Kingdom of Stormwind (via Duskwood) from the east to the Swamp of Sorrows (and, eventually, the Dark Portal in the Blasted Lands) from the west. It was, a score of years ago, considered a part of the Redridge Mountains.[1]",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 20,
+            "name": "Deeprun Tram",
+            "description": "The Deeprun Tram (or simply the Tram)[1] is a long, fully enclosed, underground (and partially underwater) set of double tracks upon which rolls two sets of three wagons, all credited to the gnomes' technical engineering. The service is fast and smooth, and is provided free of charge to travelers between the Alliance-aligned cities of Ironforge and Stormwind City. There is also a quest here that starts on the Ironforge side and ends on the Stormwind side that involves catching rats.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 21,
+            "name": "Desolace",
+            "description": "In Desolace, the skulls of ancient kodo beasts stare soullessly from their graves, halfway buried in dust. The husks of long-dead trees jutting in gruesome angles from the gray ash are the only twisted remains of a verdant past.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 22,
+            "name": "Dire Maul",
+            "description": "No description available.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 23,
+            "name": "Dun Morogh",
+            "description": "Dun Morogh is a snowy region located between the magma-strewn wasteland of the Searing Gorge to the south, the gentle ridges of Loch Modan to the east, and the swampy Wetlands to the north. Dun Morogh is home to both the gnomes of Gnomeregan and the Ironforge dwarves and is the location of the major city of Ironforge. The Khaz Modan mountains surround Dun Morogh on all sides, making it accessible only by certain passes that are currently watched over by dwarven troops.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 24,
+            "name": "Durotar",
+            "description": "Durotar[58,\u00a050], the land named after Thrall's father, Durotan,[1] lies on the eastern coast of Kalimdor. It borders the Barrens to the west and the coastal lands of Azshara to the north. The land of Durotar is rocky, and the soil is cracked and red, not unlike the orcs' homeland of Draenor. The land has many crags and canyons, where various dangerous creatures take residence. It is a harsh land to survive in; it is very dry and hot, and the vegetation and freshwater access is sparse. The orcs, ...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 25,
+            "name": "Duskwood",
+            "description": "Duskwood is located in the southern-central part of Azeroth, south of Elwynn Forest, east of Westfall, west of Deadwind Pass, and north of Stranglethorn Vale. Technically part of the Alliance and under Stormwind's protection, its distance from the mighty fortress and its close proximity to more malevolent forces in the south and east make it a realm of horror.[1] Due to events central to the Scythe of Elune, Duskwood is a cursed, dying land. Beneath the eternal blanket of darkness which gave Dus...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 26,
+            "name": "Dustwallow Marsh",
+            "description": "Dustwallow Marsh is a vast and ancient swamp in Central Kalimdor that is home to many old and wonderful beasts. Navigation is often extremely difficult and many adventurers have lost their way in this great jungle, where trees obscure the sunlight and raptors, spiders, and crocolisks lie in wait, hunting those brave enough to venture close to their lairs.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 27,
+            "name": "Eastern Plaguelands",
+            "description": "The Eastern Plaguelands is the more heavily devastated half of the Plaguelands, the remnants of the Kingdom of Lordaeron. They are located east of the Western Plaguelands and north of the Hinterlands.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 28,
+            "name": "Elwynn Forest",
+            "description": "Elwynn Forest, the Forest of Elwynn[2] or simply Elwynn, is a vast woodland of stately hardwoods nestled just below the foothills of the Burning Steppes to the north. The idyllic Redridge Mountains lie to the east, and to the south, across the Nazferiti river is where Duskwood is located. It is the heartland of the human Kingdom of Stormwind and consequently is the starting point of all human characters.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 29,
+            "name": "Emerald Forest",
+            "description": "No description available.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 30,
+            "name": "Felwood",
+            "description": "Felwood, aka Felwood Forest,[1][2] [3] is a contested zone located north of Ashenvale, east of Darkshore, and west of Hyjal and Winterspring. It is a corrupted forest filled with tainted creatures of the woods, demonic satyr and infernals, rotting treants and ancients, as well as the tauren and night elves who try to battle back the sickening of the land. It is also home to one of the two tribes of pure furbolgs left in the world \u2014 the Timbermaw.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 31,
+            "name": "Feralas",
+            "description": "Unlike its barren neighbors to the north, south and east, Feralas is a lush jungle. Both the Horde and the Alliance lay claim to the area and both factions have to contend with powerful local forces, which include, most notoriously, the bloodthirsty Gordunni ogres which populate the region and control a number of ancient Elven ruins scattered in the area, including the vast dungeon of Dire Maul. Gordunni ogres have desecrated and defiled much of Feralas and have damaged the land with their taint...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 32,
+            "name": "Gnomeregan",
+            "description": "No description available.",
+            "faction": "Neutral",
+            "type": "Capital city[1]"
+        },
+        {
+            "id": 33,
+            "name": "Hillsbrad Foothills",
+            "description": "The Hillsbrad Foothills (sometimes referred to as simply Hillsbrad) is a mid-level zone most suitable for players around level 25. Located in the Southern end of the North Island of (Eastern Kingdoms), the hills are home to the towns of Southshore and Hillsbrad Fields (Alliance), and Tarren Mill (Horde). Some notable locations, such as Durnholde Keep and Azurelode Mine can also be found here. Since this area lies outside of Thoradin's Wall, it is considered as a crossroads between Alliance and H...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 34,
+            "name": "Ironforge",
+            "description": "Ironforge (displayed as the City of Ironforge in the overworld) is the capital city of the dwarves, proud members of the Alliance. It is the ancestral home of the Bronzebeard dwarves, and one of the oldest cities of Azeroth.[1] The Council of Three Hammers rules the kingdom of Khaz Modan from the throne room within the city. The Great Forge area gave the city its name.[2]",
+            "faction": "Neutral",
+            "type": "City"
+        },
+        {
+            "id": 35,
+            "name": "Loch Modan",
+            "description": "Loch Modan is a large area east of Dun Morogh, situated in eastern Khaz Modan. It is known for its temperate climate, abandoned archaeological dig site and, until the cataclysm, the huge lake from which the region takes its name. The gray and rugged Khaz Modan mountains rise up on all sides around the loch, and the hills are lightly wooded with pine and birch. The loch was held in place by the now broken Stonewrought Dam, an architectural wonder of no equal on Azeroth.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 36,
+            "name": "Maraudon",
+            "description": "Maraudon (pronounced MORE-uh-don)[1] is a 5-player dungeon, consisting of three wings (the Wicked Grotto, Foulspore Cavern, and Earth Song Falls), located in the Valley of Spears in Desolace. It is a combination of ancient centaur burial grounds, as well as a primal temple dedicated to the elemental earth. Added in patch 1.2, Maraudon was the first dungeon to be added after the release of World of Warcraft.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 37,
+            "name": "Molten Core",
+            "description": "The Molten Core is a level 60 raid dungeon located within Blackrock Mountain, home and seat of power[1] to Ragnaros the Firelord. It was one of two forty (40) player raid dungeons available upon release of World of Warcraft, the other being Onyxia's Lair. Considered the pinnacle of raiding achievement at the time, the Molten Core enticed adventurers to enter the instance in the search of realm glory.",
+            "faction": "Hydraxian Waterlords",
+            "type": "Raid"
+        },
+        {
+            "id": 38,
+            "name": "Moonglade",
+            "description": "The Moonglade[2] (also spelled Moonglades[3] and Moon Glade)[4] is a vale in Northern Kalimdor that serves as a haven for druids, and is also the home of the Cenarion Circle. Here, tauren and night elves coexist peacefully, united by their reverence for the spirit of nature. Conflict between the races in Moonglade is not tolerated by the Moonglade Wardens stationed throughout the main town of Nighthaven, who will respond to any violence initiated against individuals with a favorable reputation w...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 39,
+            "name": "Mulgore",
+            "description": "The green, verdant plains of Mulgore are home to the noble tauren. Mulgore is nestled in the foothills of the Stonetalon Mountains to the north, and protected by a natural wall of mountains on all sides. The only pass through these mountains is currently closed off by the Great Gate, which leads into the Southern Barrens to the east.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 40,
+            "name": "Naxxramas",
+            "description": "Naxxramas was originally a 40-man raid instance floating above the Eastern Plaguelands. It was a massive necropolis and had the unquestionable honor of serving as the seat of one of the Lich King's most powerful officers, the dreaded lich Kel'Thuzad.",
+            "faction": "Neutral",
+            "type": "Raid"
+        },
+        {
+            "id": 41,
+            "name": "Onyxia's Lair",
+            "description": "Onyxia's Lair was a level 60, 40-man raid dungeon located in Dustwallow Marsh, home to Onyxia.",
+            "faction": "Neutral",
+            "type": "Raid"
+        },
+        {
+            "id": 42,
+            "name": "Orgrimmar",
+            "description": "Orgrimmar ['\u0254\u0279g\u0279\u026am\u0251\u0279] is the capital city of the orcs, and the Horde as a whole. Nestled into a system of valleys on the northern edge of Durotar, the imposing warrior city is the seat of the Horde Council that governs the entire faction. It is the primary hub for player characters of the Horde and, as with all capital cities, has banks, class and profession trainers, and auction houses. The equivalent hub for the Alliance is Stormwind City.",
+            "faction": "Neutral",
+            "type": "City"
+        },
+        {
+            "id": 43,
+            "name": "Ragefire Chasm",
+            "description": "Ragefire Chasm is an instance dungeon located in Orgrimmar. The entry portal is in the Cleft of Shadow, next to Neeru Fireblade's tent. The volcanic caverns[1] are home to many hostile troggs, and once was one of the Burning Blade clan's bases of operations. Recently, suspicious activity has started showing up in the Chasm in the form of Dark Shaman, obedient to an unknown force.",
+            "faction": "Neutral",
+            "type": "Dungeon"
+        },
+        {
+            "id": 44,
+            "name": "Razorfen Downs",
+            "description": "Razorfen Downs (or simply Razorfen[1] or the Downs)[2] are the ancestral burial grounds of the quilboar, nestled amid huge brambles in the Thousand Needles.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 45,
+            "name": "Razorfen Kraul",
+            "description": "Razorfen Kraul is the ancestral home of the quilboar, heavily entrenched within the thorns that supposedly sprang from the corpse of the demigod Agamaggan. It is found in the Southern Barrens, at the far southern edge, west side.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 46,
+            "name": "Redridge Mountains",
+            "description": "The Redridge Mountains, or the Red Ridge Mountains, are located east of Elwynn Forest, northeast of Duskwood, and south of the Burning Steppes. Although it may be considered contested, Horde characters have no settlements or NPCs and it is thus a place they use mostly for passing through to reach Flame Crest or Stonard.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 47,
+            "name": "Ruins of Ahn'Qiraj",
+            "description": "The Ruins of Ahn'Qiraj is a 10-man (20-man before Cataclysm) outdoor raid dungeon located in southern Silithus, released with patch 1.9. Its release was joined by a massive server-dependent event called the Gates of Ahn'Qiraj. It can be found by entering the main Ahn'Qiraj Gate and continuing on the left path. Most of the area is mountable, however, the bug mounts from the Temple of Ahn'Qiraj do not work here. If any member of your party is in combat then your entire party is in combat no matter...",
+            "faction": "Cenarion Circle",
+            "type": "Raid"
+        },
+        {
+            "id": 48,
+            "name": "Scarlet Monastery",
+            "description": "The Scarlet Monastery, once known as The Old Monastery, is a fortified monastery located in the northeast corner of the blighted Tirisfal Glades, it was once a cathedral of the Church of the Holy Light, which was taken over by the Scarlet Crusade after the end of the Third War.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 49,
+            "name": "Scholomance",
+            "description": "The Scholomance (SKOH-loh-mance), a vile academy for prospective necromancers of the Scourge, is located in the ruins of the palatial House of Barov, on a rise overlooking the abandoned city of Caer Darrow. The enemy level range is 57-62.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 50,
+            "name": "Searing Gorge",
+            "description": "The Searing Gorge is a contested zone in the Eastern Kingdoms for players in the 43-52 range.  It is home to a group of exceptionally stout dwarves called the Thorium Brotherhood, who have split from the Dark Iron clan.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 51,
+            "name": "Shadowfang Keep",
+            "description": "Shadowfang Keep is a haunted keep in southern Silverpine Forest, near Pyrewood Village.  It is the base of operations for the evil archmage Arugal and his worgen progeny.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 52,
+            "name": "Silithus",
+            "description": "Silithus forms the south-western corner of Kalimdor. It can only be reached by traveling to the north-western corner of the Un'Goro Crater, where a wide path extends out of the crater and into Silithus.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 53,
+            "name": "Silverpine Forest",
+            "description": "Silverpine Forest, or simply Silverpine, is a vast, ancient wood that runs along Lordaeron's rugged western coast. The land ranges from fairly flat to hilly, and is nestled among even taller mountains. The forest is eerily silent save for the occasional unnatural howling echoing among the trees. Mossy overhangs shiver in the cold breeze, and the trees are all sickly or dying. Dilapidated farmsteads and abandoned mines dot the land, home now to the darker denizens of the woods.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 54,
+            "name": "Stonetalon Mountains",
+            "description": "The Stonetalon Mountains, aka Stonetalons, are a range of peaks that lie west of the Barrens, south of Ashenvale, and north of Desolace. The mountains are traditionally the homeland of the harpies, but their numbers have dwindled as the bird-women spread east and south. Stonetalon Peak, the largest mountain in the range, has long been a sacred place for both the night elves and tauren. The night elves maintain a barrow and a glade at the top, where they commune regularly with the spirits of natu...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 55,
+            "name": "Stormwind City",
+            "description": "Stormwind City[3] (a.k.a. New Stormwind or simply Stormwind), located north of Elwynn Forest on Azeroth region's northwest coast, is the capital city of the kingdom of Stormwind[4] and the largest human city on Azeroth. After the Third War, it has become one of the last great human cities,[5] and embodies the heart of the Alliance.[6] Stormwind's willingness to work with others to find diplomatic solutions stands out as one of its true strengths. Its citizens hold fast to the principles of honor...",
+            "faction": "Neutral",
+            "type": "City"
+        },
+        {
+            "id": 56,
+            "name": "Stranglethorn Vale",
+            "description": "Stranglethorn Vale is a vast jungle south of Duskwood.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 57,
+            "name": "Stratholme",
+            "description": "The city of Stratholme[27,\u00a08] (pronounced \u02c8strath\u02d0h\u0254lm[1] or STRATH-olm)[2]  was the northernmost and second most populous city of the kingdom of Lordaeron, and is the city where the Order of the Silver Hand was founded. Today, Stratholme is the Scourge's capital in Lordaeron. The mad Prince Arthas ravaged Stratholme in the Third War and the undead moved in soon after. Stratholme burns to this day, and its districts have been split between the overzealous Scarlet Crusade led by Grand Crusader Da...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 58,
+            "name": "Sunken Temple",
+            "description": "Temple of Atal'Hakkar (also known as Sunken Temple and more rarely, Lost Temple) is a shrine erected by the Atal'ai trolls, led by their master Jammal'an the Prophet, to the nefarious Blood God \u2014 Hakkar the Soulflayer. Believing that this was the intended site for Hakkar's reentry into Azeroth, the great Dragon Aspect, Ysera, and her green dragonflight sunk the temple into the depths of the Swamp of Sorrows...but the dragons did not realize that it was the wrong location until it was too late.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 59,
+            "name": "Swamp of Sorrows",
+            "description": "The Swamp of Sorrows (also once known as the Swamps of Sorrow) is a contested territory in the southern part of the Eastern Kingdoms. Among its murk-ridden marshes the green dragonspawn patrol at the behest of their dreaming mistress, Ysera. The great Dragon Aspect has warned of a lurking terror within the Temple of Atal'Hakkar, and her loyal servants are determined to protect the land from the emerging doom.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 60,
+            "name": "Tanaris",
+            "description": "Tanaris is a desert located in southeastern Kalimdor, east of Un'Goro Crater and south of Thousand Needles. It is an arid land, covered in sand dunes and frequently exposed to dangerous sandstorms. The Steamwheedle Cartel has its main base of operations here - Steamwheedle Port and Gadgetzan have been founded by the goblins of Undermine since this desert is as close to home as they can get on the continents. The dock in Steamwheedle is presumably used for transport to the outer islands, but so f...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 61,
+            "name": "Teldrassil",
+            "description": "Off Kalimdor's northern coast lies the island, and great tree of the same name, Teldrassil, the new home of the reclusive night elves and a stunning testament to the power of their magic and their connection with nature.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 62,
+            "name": "Test Dungeon",
+            "description": "Error retrieving data.",
+            "faction": "Unknown",
+            "type": "Unknown"
+        },
+        {
+            "id": 63,
+            "name": "The Barrens",
+            "description": "The Barrens is a large zone in central Kalimdor controlled mostly by the Horde. It is a massive savanna, with a few oases in the north-central region around the Crossroads and with low mountains serving as natural borders.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 64,
+            "name": "The Deadmines",
+            "description": "The Deadmines are expansive, winding tunnels dug out under Westfall and part of northwestern Stranglethorn Vale. It is the lowest-level Alliance instance and is populated by members of the Defias Brotherhood. Its entrance can be accessed in the town of Moonbrook in southwestern Westfall, while its exit is located in the western part of the Dagger Hills near the ocean.",
+            "faction": "Neutral",
+            "type": "Dungeon"
+        },
+        {
+            "id": 65,
+            "name": "The Great Sea",
+            "description": "The Great Sea makes up the deep waters between the continents of Azeroth, with the Maelstrom located at its center. This stretch of sea is so vast you will die of fatigue before you can swim any significant distance. In order to cross it, the Horde primarily uses zeppelins while the Alliance prefers to use boats. Since the South Seas, the Frozen Sea, and the Coral Sea are found in between the continents, they are also part of this vast ocean.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 66,
+            "name": "The Hinterlands",
+            "description": "No description available.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 67,
+            "name": "The Stockade",
+            "description": "Stormwind Stockade, aka the Stormwind Stockades[1] and The Stockade, is a high-security prison complex, hidden beneath the canal district of Stormwind City. Presided over by Warden Thelwater, the Stockade is home to petty crooks, political insurgents, murderers, and a score of the most dangerous criminals in the land.[2] The stockade allowed visitors for the prisoners.[3]",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 68,
+            "name": "The Temple of Atal'Hakkar",
+            "description": "The Temple of Atal'Hakkar (also known as the Sunken Temple) is a shrine to the nefarious Blood God Hakkar the Soulflayer that was erected by the Atal'ai trolls led by their master Jammal'an the Prophet. Believing that this was the intended site for Hakkar's reentry into Azeroth, the great Dragon Aspect Ysera and her green dragonflight sunk the temple into the depths of the Swamp of Sorrows. However, this actually helped the Atal'ai by ensuring their efforts to summon Hakkar went on undisturbed.",
+            "faction": "Neutral",
+            "type": "Dungeon"
+        },
+        {
+            "id": 69,
+            "name": "The Veiled Sea",
+            "description": "The Veiled Sea is the name of the vast sea that lies to the north and west of Kalimdor. It is the location of the former night elven homeland of Teldrassil, and the group of islands known as the Azuremyst Isles \u2014 where the draenei inter-planar vessel named The Exodar crash-landed.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 70,
+            "name": "Thousand Needles",
+            "description": "Thousand Needles (aka The Thousand Needles)[1] is a huge dry canyon in Southern Kalimdor, filled with towering mesas.  In the east, the canyon opens up to the Shimmering Flats, a vast salt pan that is used by Goblin and Gnomish engineers for their races. Despite being relatively barren, the area has its own harsh beauty, and the sunrise seen from either Freewind Post or one of the mesas around Darkcloud Pinnacle can be spectacular. The Shimmering Flats and Mirage Raceway are also worth visiting ...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 71,
+            "name": "Thunder Bluff",
+            "description": "Thunder Bluff (sometimes spelled as Thunderbluff)[1][2][3][4] is the tauren capital city located in the northern part of the region of Mulgore on the continent of Kalimdor. The entire city is built on bluffs several hundred feet above the surrounding landscape and is accessible by elevators on the southwestern and northeastern sides. Established by the wise chieftain Cairne Bloodhoof and his stalwart tribe, Thunder Bluff overlooks the verdant land of Mulgore from atop a series of windswept mesas...",
+            "faction": "Neutral",
+            "type": "City"
+        },
+        {
+            "id": 72,
+            "name": "Tirisfal Glades",
+            "description": "On the northern coast of Lordaeron lies the eerie Tirisfal Glades. The unofficial kingdom to the Forsaken,[1] servants of the Banshee Queen Sylvanas Windrunner, the wooded hills are seeped through with the curse of the Lich King's plague. The sky over Tirisfal is eternally gloomy and tinted a blighted green, and the trees and other flora desperately cling to their last shreds of life.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 73,
+            "name": "Uldaman",
+            "description": "Uldaman is a huge and ancient, massive vault created by the titan keepers,[1] buried deep within mountains of Khaz Modan. It is located in the Badlands, west of what was once the entrance to Loch Modan. Prior to the Third War,[2] it was partially excavated by the dwarves from Ironforge, but has since fallen into the hands of the troggs and Dark Irons, who find the place ideal to dig for earthly riches. It was previously a titan-forged facility.",
+            "faction": "Neutral",
+            "type": "Group"
+        },
+        {
+            "id": 74,
+            "name": "Un'Goro Crater",
+            "description": "Lush Un'Goro Crater (\"God Lands\" in the Qiraji language[1]) lies at the southern part of Southern Kalimdor, between Tanaris and Silithus. Although the area is almost completely isolated from the rest of the world and sandwiched between three deserts, the region is filled with exotic plant life and even more exotic creatures. Ranging from peaceful earth elementals to raging devilsaurs, the locals are not to be trifled with.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 75,
+            "name": "Undercity",
+            "description": "The Undercity, now known as the Ruins of Undercity, was the capital city of the Forsaken undead of the Horde. Its ruins are located right under the Ruins of Lordaeron in Tirisfal Glades, at the northwestern edge of the continent of Lordaeron.",
+            "faction": "Neutral",
+            "type": "City"
+        },
+        {
+            "id": 76,
+            "name": "Wailing Caverns",
+            "description": "The Wailing Caverns is in the Northern Barrens, to the south of Crossroads, on the north side of the Lushwater Oasis. The Wailing Caverns is one of the first instanced dungeons that lower-level Horde players encounter. One primary reason to venture into the Wailing Caverns is for BoP drops from the numerous bosses in the instance. Some of the quest rewards are also highly desirable. Even the poor quality drops are better than ordinary; a stack of typical trash drops is worth around five to ten s...",
+            "faction": "Neutral",
+            "type": "Dungeon"
+        },
+        {
+            "id": 77,
+            "name": "Warsong Gulch",
+            "description": "Warsong Gulch (WSG for short) is a battleground nestled in between the southern part of Ashenvale forest and the northern area of the Barrens. It is located near the area where Grom Hellscream and his orcs chopped away huge swaths of forest during the events of the Third War. Despite disagreements from Thrall and the shamans, some orcs have remained in the vicinity, continuing their deforestation to fuel the Horde's expansion. They call themselves the Warsong Outriders.",
+            "faction": "Neutral",
+            "type": "Battleground"
+        },
+        {
+            "id": 78,
+            "name": "Western Plaguelands",
+            "description": "The Western Plaguelands are located in northern Lordaeron, wedged between Tirisfal Glades to the west, the Eastern Plaguelands to the east, and the Alterac Mountains to the south. It is filled with a smoky gray mist and the creatures here are blighted and sick, angrily attacking anyone who wanders too close with surprising ferocity. The land is also home to countless undead who infest the ruins of Andorhal, the four cauldron fields, and Sorrow Hill. The Scarlet Crusade has a significant holding ...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 79,
+            "name": "Westfall",
+            "description": "Westfall borders the Kingdom of Stormwind and is mostly populated by humans not under the Alliance\u2019s complete control. The region was stolen right under the Alliance\u2019s nose by its own bitter people. This rich land has lain fallow since the Second War, but it is now held by the Defias Brotherhood. Stormwind claims the land as its own, but it has found little time to be concerned with it, with insufficient funds and might to retake the region. A handful of farmers still try to keep their land, and...",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 80,
+            "name": "Wetlands",
+            "description": "The Wetlands is a large, wet zone below Stonewrought Dam and north of Loch Modan, covered with small rivers, lakes, and ponds. Bordered on three sides by mountains, the Wetlands are open to the ocean to the west. Adventurers seeking a route to the Wetlands must either come through sieged Dun Algaz from Loch Modan or cross the damaged Thandol Span from Arathi Highlands. The northern slopes of Wetlands are generally classed within mountains of Khaz Modan.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 81,
+            "name": "Winterspring",
+            "description": "Winterspring (aka Winterspring Valley or Winterspring Grove) is a valley located in northeastern Kalimdor, east of Felwood and Hyjal, and north of Azshara. It is a cold land perpetually covered in snow and holds the goblin city of Everlook, old night elf holdings, and the traditional homeland of the blue dragonflight. Many wild creatures roam the beautiful landscape. However, the southern parts of the region have been completely taken over by demons.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 82,
+            "name": "Zul'Farrak",
+            "description": "Zul'Farrak (or Zul'farrak),[1] pronounced [ZOOL-fah-rawk], is a Sandfury troll city[2] located in northwestern Tanaris.",
+            "faction": "Neutral",
+            "type": "Zone"
+        },
+        {
+            "id": 83,
+            "name": "Zul'Gurub",
+            "description": "Zul'Gurub was a 20-man raid instance located in northeastern Stranglethorn Vale, released in patch 1.7. Like Zul'Farrak, it counted as an outdoors zone, and riding on mounts is possible. Zul'Gurub is the capital of the jungle troll tribes, led by the Gurubashi, worshippers of the terrible god, Hakkar the Soulflayer, who personally inhabits a temple in the deepest parts of the city.",
+            "faction": "Neutral",
+            "type": "Raid"
+        }
+    ]
+}
