@@ -1,0 +1,585 @@
+{
+    "regions": [
+        {
+            "id": 1,
+            "name": "Ahn'Qiraj",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 2,
+            "name": "Alterac Mountains",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 3,
+            "name": "Alterac Valley",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 4,
+            "name": "Arathi Basin",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 5,
+            "name": "Arathi Highlands",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 6,
+            "name": "Ashenvale",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 7,
+            "name": "Azshara",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 8,
+            "name": "Badlands",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 9,
+            "name": "Blackfathom Deeps",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 10,
+            "name": "Blackrock Depths",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 11,
+            "name": "Blackrock Mountain",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 12,
+            "name": "Blackrock Spire",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 13,
+            "name": "Blackwing Lair",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 14,
+            "name": "Blasted Lands",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 15,
+            "name": "Burning Steppes",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 16,
+            "name": "Caverns of Time",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 17,
+            "name": "Darkshore",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 18,
+            "name": "Darnassus",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 19,
+            "name": "Deadwind Pass",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 20,
+            "name": "Deeprun Tram",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 21,
+            "name": "Desolace",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 22,
+            "name": "Dire Maul",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 23,
+            "name": "Dun Morogh",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 24,
+            "name": "Durotar",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 25,
+            "name": "Duskwood",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 26,
+            "name": "Dustwallow Marsh",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 27,
+            "name": "Eastern Plaguelands",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 28,
+            "name": "Elwynn Forest",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 29,
+            "name": "Emerald Forest",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 30,
+            "name": "Felwood",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 31,
+            "name": "Feralas",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 32,
+            "name": "Gnomeregan",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 33,
+            "name": "Hillsbrad Foothills",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 34,
+            "name": "Ironforge",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 35,
+            "name": "Loch Modan",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 36,
+            "name": "Maraudon",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 37,
+            "name": "Molten Core",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 38,
+            "name": "Moonglade",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 39,
+            "name": "Mulgore",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 40,
+            "name": "Naxxramas",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 41,
+            "name": "Onyxia's Lair",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 42,
+            "name": "Orgrimmar",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 43,
+            "name": "Ragefire Chasm",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 44,
+            "name": "Razorfen Downs",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 45,
+            "name": "Razorfen Kraul",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 46,
+            "name": "Redridge Mountains",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 47,
+            "name": "Ruins of Ahn'Qiraj",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 48,
+            "name": "Scarlet Monastery",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 49,
+            "name": "Scholomance",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 50,
+            "name": "Searing Gorge",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 51,
+            "name": "Shadowfang Keep",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 52,
+            "name": "Silithus",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 53,
+            "name": "Silverpine Forest",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 54,
+            "name": "Stonetalon Mountains",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 55,
+            "name": "Stormwind City",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 56,
+            "name": "Stranglethorn Vale",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 57,
+            "name": "Stratholme",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 58,
+            "name": "Sunken Temple",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 59,
+            "name": "Swamp of Sorrows",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 60,
+            "name": "Tanaris",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 61,
+            "name": "Teldrassil",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 62,
+            "name": "Test Dungeon",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 63,
+            "name": "The Barrens",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 64,
+            "name": "The Deadmines",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 65,
+            "name": "The Great Sea",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 66,
+            "name": "The Hinterlands",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 67,
+            "name": "The Stockade",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 68,
+            "name": "The Temple of Atal'Hakkar",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 69,
+            "name": "The Veiled Sea",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 70,
+            "name": "Thousand Needles",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 71,
+            "name": "Thunder Bluff",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 72,
+            "name": "Tirisfal Glades",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 73,
+            "name": "Uldaman",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 74,
+            "name": "Un'Goro Crater",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 75,
+            "name": "Undercity",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 76,
+            "name": "Wailing Caverns",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 77,
+            "name": "Warsong Gulch",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 78,
+            "name": "Western Plaguelands",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 79,
+            "name": "Westfall",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 80,
+            "name": "Wetlands",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 81,
+            "name": "Winterspring",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 82,
+            "name": "Zul'Farrak",
+            "description": "",
+            "faction": "",
+            "type": ""
+        },
+        {
+            "id": 83,
+            "name": "Zul'Gurub",
+            "description": "",
+            "faction": "",
+            "type": ""
+        }
+    ]
+}
