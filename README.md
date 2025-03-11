@@ -10,7 +10,7 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 - **Backend**: Python with Flask
 - **Frontend**: React
-- **Database**: Start with MySQL, move to PostgreSQL when I feel like it
+- **Database**: Right now using a JSON, may start with MySQL, move to PostgreSQL when I feel like it
 - **Containerization**: Docker
 - **Orchestration**: Kubernetes on HomeLab, then AWS EKS if money allows
 - **CI/CD**: GitHub Actions
