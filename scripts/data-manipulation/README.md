@@ -1,6 +1,10 @@
 # Python Scripts
 
-So, housed in this folder are a bunch of the python scripts I used to web scrape and datamine for the JSON data. They were used in the following order:
+So, housed in this folder are a bunch of the python scripts I used to web scrape and datamine for the JSON data. 
+
+## Scripts in Order
+
+They were used in the following order:
 
 1. `convert_regions.py`
 2. `scrape_info.py`
@@ -10,3 +14,9 @@ So, housed in this folder are a bunch of the python scripts I used to web scrape
 6. `fix_factions.py`
 
 I surely could have done this all in one, but I kept getting one step done and thinking, "Wait, I need to do THIS too..."
+
+
+## Running the Scripts
+
+1. `cd scripts/data-manipulation`
+2. `pip install -r ../requirements.txt`
