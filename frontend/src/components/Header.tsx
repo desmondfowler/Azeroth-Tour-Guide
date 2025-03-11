@@ -8,7 +8,7 @@ export default function Header() {
           <div className="flex-shrink-0">
             <a href="/">
               <img
-                src="/atg-logo.jpg"
+                src="/atg-logo.png"
                 className="h-14 w-auto rounded-full border-2 border-amber-700 shadow-md"
                 alt="Azeroth Tour Guide logo"
               />
@@ -40,7 +40,7 @@ export default function Header() {
             <button
               type="button"
               className="text-amber-400 hover:text-white p-2 transition-all duration-200"
-              aria-label="Toggle menu"
+              aria-label="Toggle menu" aria-expanded="false"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path

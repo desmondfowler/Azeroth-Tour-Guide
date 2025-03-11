@@ -15,10 +15,10 @@ export default function RandomRegionButton() {
 
     return (
 
-        <p className="mt-6">
-            <button onClick={handleClick} className="inline-block bg-amber-400 text-gray-900 font-bold px-6 py-3 rounded-lg shadow-lg hover:bg-amber-500 transition-all">
-                Explore a Random Region!
-            </button>
-        </p>
+
+        <button onClick={handleClick} className="inline-block bg-amber-400 text-gray-900 font-bold px-6 py-3 rounded-lg shadow-lg hover:bg-amber-500 transition-all">
+            Explore a Random Region!
+        </button>
+
     );
 }
