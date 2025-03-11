@@ -96,11 +96,11 @@ These steps assume Windows, I will create Linux steps at some point (but you pro
 3. **Frontend Setup**  
    - Go to frontend: `cd frontend`
    - Install deps: `npm install`
-   - Generate Tailwind: `npm run gen-tailwind`
+   - Generate Tailwind: `npm run gen-tailwind` (this runs with --watch for dev purposes right now, will change so it runs once when final product is ready)
    - Build static files that Flask serves: `npx vite build`
 
 4. **Database**  
-   - Right now, I'm just using a JSON with scraped data from [https://wowpedia.fandom.com](https://wowpedia.fandom.com). 
+   - Right now, I'm just using a JSON with scraped data from [https://warcraft.wiki.gg](https://warcraft.wiki.gg). 
    - Eventually... Set up your MySQL (then eventually again, PostgreSQL) database
    - Tweak the backend config with the connection string (like mysql://user:password@localhost:3306/azeroth_db).
 
