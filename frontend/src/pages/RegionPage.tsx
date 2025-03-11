@@ -29,23 +29,23 @@ export default function RegionPage() {
             })
             .then(function (data) {
                 console.log("Fetched data:", data);
-                // Add placeholders if fields are missing
+                // Only use placeholder if screenshot is explicitly missing or invalid
                 const updatedData: RegionData = {
                     ...data,
-                    screenshot: data.screenshot || '/placeholder-screenshot.jpg', // Default placeholder
+                    screenshot: data.screenshot ? data.screenshot : '/placeholder-screenshot.png', // Use provided screenshot or placeholder
                     activities: data.activities || ['Explore the region!', 'Take a scenic tour!'], // Default activities
                 };
                 setRegion(updatedData);
             })
             .catch(function (error) {
                 console.error("Error fetching region data:", error);
-                // Fallback with placeholder data on error
+                // Use Ragnaros screenshot and custom error activities on failure
                 setRegion({
-                    name: regionName,
+                    name: 'Whoops!',
                     description: 'No description available due to error. Ragnaros ate it!',
                     faction: 'Unknown',
                     type: 'Unknown',
-                    screenshot: '/placeholder-screenshot.jpg',
+                    screenshot: '/ragnaros-screenshot.png', // Ragnaros screenshot for errors
                     activities: ['Try not to get burned!', 'Dodge the circles!'],
                 });
             });
