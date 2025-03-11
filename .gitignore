@@ -40,6 +40,8 @@ frontend/coverage/
 frontend/npm-debug.log*
 frontend/yarn-debug.log*
 frontend/yarn-error.log*
+frontend/src/css/*.css
+
 
 # Development Tools
 .pytest_cache/
@@ -74,3 +76,4 @@ Thumbs.db
 # poetry.lock
 # Pipfile.lock
 # .pdm.toml
+
