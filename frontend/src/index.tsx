@@ -24,7 +24,7 @@ function App() {
         <Route path="/region/:name" element={<RegionPage />} />
       </Routes>
     </Router>
-  )
+  );
 }
 
 createRoot(rootElement).render(
