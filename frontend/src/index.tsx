@@ -5,7 +5,7 @@ import "./css/tailwind.css";
 
 
 // Import components
-import Home from './pages/Home';
+import HomePage from './pages/HomePage';
 import AzerothPage from './pages/AzerothPage';
 import Contact from './pages/Contact';
 import RegionPage from './pages/RegionPage';
