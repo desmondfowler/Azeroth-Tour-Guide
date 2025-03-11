@@ -42,8 +42,11 @@ export default function RegionPage() {
         <StrictMode>
             <div className="min-h-screen bg-gray-900 flex flex-col">
                 <Header />
-                {region ? <Region {...region} /> : <p className="text-white p-6">Loading...</p>}
+                <div>
+                    {region ? <Region {...region} /> : <p className="text-white p-6">Loading...</p>}
+                </div>
             </div>
+
         </StrictMode>
     );
 }
