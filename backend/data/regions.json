@@ -43,7 +43,7 @@
         {
             "id": 5,
             "name": "Ashenvale",
-            "description": "Ashenvale, also known as Ashenvale Forest,[1] is a wilderness region south of Darkshore and Felwood, west of Azshara, and north of the Stonetalon Mountains and the Barrens. Ashenvale is also the term used for the larger forested region which includes most of western Hyjal including Azshara.[2] It is the ancestral homeland of the night elves, who remain in control of several holdings through the zone, including Astranaar, Maestra's Post, Silverwind Refuge, Silverwing Grove, and the Shrine of Aessina. The Horde has more recently established a settlement in the eastern part of the woods \u2014 Splintertree Post \u2014 as well as a smaller camp on the western beach \u2014 Zoram'gar Outpost - along with several Warsong camps situated from Kargathia Keep all through the southeast to the Mor'shan Rampart in the far south. The zone is heavily populated with furbolgs, satyr, and wild creatures such as spiders, wolves, and bears. The region is quite large, and running from the Zoram Strand to the Warsong Lumber Camp is quite an undertaking.",
+            "description": "Ashenvale, also known as Ashenvale Forest,[1] is a wilderness region south of Darkshore and Felwood, west of Azshara, and north of the Stonetalon Mountains and the Barrens. Ashenvale is also the term used for the larger forested region which includes most of western Hyjal including Azshara.[2] It is the ancestral homeland of the night elves, who remain in control of several holdings through the zone, including Astranaar, Maestra's Post, Silverwind Refuge, Silverwing Grove, and the Shrine of Aessina. The Horde has more recently established a settlement in the eastern part of the woods - Splintertree Post - as well as a smaller camp on the western beach - Zoram'gar Outpost - along with several Warsong camps situated from Kargathia Keep all through the southeast to the Mor'shan Rampart in the far south. The zone is heavily populated with furbolgs, satyr, and wild creatures such as spiders, wolves, and bears. The region is quite large, and running from the Zoram Strand to the Warsong Lumber Camp is quite an undertaking.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Ashenvale_(Classic)"
@@ -51,7 +51,7 @@
         {
             "id": 6,
             "name": "Azshara",
-            "description": "Azshara is located in northeastern Kalimdor, east of Ashenvale, south of Winterspring, and north of Durotar. It is a beautiful coastal area cloaked in eternal autumn. The trees and other flora are tinged in brilliant oranges and reds, and nearer the coast, great cliffs and sandy beaches line the ocean. The region's inhabitants can make life hard for the nature lover, however. Enraged ghosts, vicious satyr, stalking naga and ferocious wildlife can quickly put an end to those who venture too far f...",
+            "description": "Azshara is located in northeastern Kalimdor, east of Ashenvale, south of Winterspring, and north of Durotar. It is a beautiful coastal area cloaked in eternal autumn. The trees and other flora are tinged in brilliant oranges and reds, and nearer the coast, great cliffs and sandy beaches line the ocean. The region's inhabitants can make life hard for the nature lover, however. Enraged ghosts, vicious satyr, stalking naga and ferocious wildlife can quickly put an end to those who venture too far from the road.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Azshara_(Classic)"
@@ -59,7 +59,7 @@
         {
             "id": 7,
             "name": "Badlands",
-            "description": "The Badlands are a cracked desert of dry earth, scattered boulders, and winding canyons. Dark Iron dwarves clash with ogres and drakes, while Horde orcs man a fortress to keep watch on their renegade brethren in the eastern lands. Ironforge prospectors search this desolate land for Titan artifacts, inspired by the recently unearthed Uldaman \u2014 an immense ruin that held the first clues to the dwarves\u2019 lofty origins. Stonevault troggs, released after millennia of slumber, slaughtered the explorers and viciously defend their stolen city.",
+            "description": "The Badlands are a cracked desert of dry earth, scattered boulders, and winding canyons. Dark Iron dwarves clash with ogres and drakes, while Horde orcs man a fortress to keep watch on their renegade brethren in the eastern lands. Ironforge prospectors search this desolate land for Titan artifacts, inspired by the recently unearthed Uldaman - an immense ruin that held the first clues to the dwarves' lofty origins. Stonevault troggs, released after millennia of slumber, slaughtered the explorers and viciously defend their stolen city.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Badlands_(Classic)"
@@ -83,7 +83,7 @@
         {
             "id": 10,
             "name": "Blackrock Mountain",
-            "description": "Blackrock Mountain is a zone between the Burning Steppes and the Searing Gorge, linking the two regions. This zone is deceptively small and appears empty when first entered - however, it was at one point, without doubt, among the most dangerous places in Azeroth. It was hotly contested between the forces of Ragnaros and his Dark Iron servants on one side and the black dragon Nefarian and his orc minions on the other. Within these black stones, there are numerous inhabited areas. Inside this unna...",
+            "description": "Blackrock Mountain is a zone between the Burning Steppes and the Searing Gorge, linking the two regions. This zone is deceptively small and appears empty when first entered - however, it was at one point, without doubt, among the most dangerous places in Azeroth. It was hotly contested between the forces of Ragnaros and his Dark Iron servants on one side and the black dragon Nefarian and his orc minions on the other. Within these black stones, there are numerous inhabited areas. Inside this unnaturally created volcano is some of the greatest work ever wrought by the dwarves.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Blackrock%20Mountain"
@@ -107,7 +107,7 @@
         {
             "id": 13,
             "name": "Blasted Lands",
-            "description": "The Blasted Lands bear that name for a reason: they were twisted by the magic that brought the Dark Portal into being, spewing the rampaging Horde into Azeroth. This wasted desert of red clay is home to the original Dark Portal. The portal still stands, and leads to Outland \u00e2\u20ac\u201d the remains of the orcs\u00e2\u20ac\u2122 sundered homeworld, Draenor. Nethergarde Keep, a Stormwind fortress of dour mages and paladins, keeps watch over the portal and the demons and ogres that would abuse its power.",
+            "description": "The Blasted Lands bear that name for a reason: they were twisted by the magic that brought the Dark Portal into being, spewing the rampaging Horde into Azeroth. This wasted desert of red clay is home to the original Dark Portal. The portal still stands, and leads to Outland - the remains of the orcs' sundered homeworld, Draenor. Nethergarde Keep, a Stormwind fortress of dour mages and paladins, keeps watch over the portal and the demons and ogres that would abuse its power.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Blasted%20Lands_(Classic)"
@@ -155,7 +155,7 @@
         {
             "id": 19,
             "name": "Deeprun Tram",
-            "description": "The Deeprun Tram (or simply the Tram) is a long, fully enclosed, underground (and partially underwater) set of double tracks upon which rolls two sets of three wagons, all credited to the gnomes' technical engineering. The service is fast and smooth, and is provided free of charge to travelers between the Alliance-aligned cities of Ironforge and Stormwind City.",
+            "description": "Marvel at the gnomish ingenuity of the Deeprun Tram, a subterranean marvel whisking visitors between the grand cities of Ironforge and Stormwind through echoing tunnels beneath the earth. The Deeprun Tram (or simply the Tram) is a long, fully enclosed, underground (and partially underwater) set of double tracks upon which rolls two sets of three wagons, all credited to the gnomes' technical engineering. The service is fast and smooth, and is provided free of charge to travelers between the Alliance-aligned cities of Ironforge and Stormwind City.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Deeprun%20Tram"
@@ -187,7 +187,7 @@
         {
             "id": 23,
             "name": "Durotar",
-            "description": "Durotar, the land named after Thrall's father, Durotan, lies on the eastern coast of Kalimdor. It borders the Barrens to the west and the coastal lands of Azshara to the north. The land of Durotar is rocky, and the soil is cracked and red, not unlike the orcs' homeland of Draenor. The land has many crags and canyons, where various dangerous creatures take residence. It is a harsh land to survive in; it is very dry and hot, and the vegetation and freshwater access is sparse. The orcs, ...",
+            "description": "Durotar, the land named after Thrall's father, Durotan, lies on the eastern coast of Kalimdor. It borders the Barrens to the west and the coastal lands of Azshara to the north. The land of Durotar is rocky, and the soil is cracked and red, not unlike the orcs' homeland of Draenor. The land has many crags and canyons, where various dangerous creatures take residence. It is a harsh land to survive in; it is very dry and hot, and the vegetation and freshwater access is sparse. The orcs, however, see a harsh beauty in the land that reminds them of their home world. Durotar is a proving ground for young orcs, who are sent to the Valley of Trials to complete several rites of passage before they are considered fit for the challenges that lie ahead. Durotar is the new homeland of the orcs and the site of the orcs' principal city of Orgrimmar. While the orcs founded their city of Orgrimmar here, Durotar has become something of a haven for all of the Horde races, especially the trolls.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Durotar_(Classic)"
@@ -195,7 +195,7 @@
         {
             "id": 24,
             "name": "Duskwood",
-            "description": "Duskwood is located in the southern-central part of Azeroth, south of Elwynn Forest, east of Westfall, west of Deadwind Pass, and north of Stranglethorn Vale. Technically part of the Alliance and under Stormwind's protection, its distance from the mighty fortress and its close proximity to more malevolent forces in the south and east make it a realm of horror. Due to events central to the Scythe of Elune, Duskwood is a cursed, dying land. Beneath the eternal blanket of darkness which gave Dus...",
+            "description": "Duskwood is located in the southern-central part of Azeroth, south of Elwynn Forest, east of Westfall, west of Deadwind Pass, and north of Stranglethorn Vale. Technically part of the Alliance and under Stormwind's protection, its distance from the mighty fortress and its close proximity to more malevolent forces in the south and east make it a realm of horror.[1] Due to events central to the Scythe of Elune, Duskwood is a cursed, dying land. Beneath the eternal blanket of darkness which gave Duskwood its current name, the Scythe's effects have transformed what was once a beautiful part of Elwynn Forest into a land covered in gnarled trees and inhabited by the hideous undead and extradimensional Worgen, brought along with the black fog hanging over the woods. Ogres moving in from Deadwind Pass have brought up even more problems.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Duskwood_(Classic)"
@@ -227,7 +227,7 @@
         {
             "id": 28,
             "name": "Felwood",
-            "description": "Felwood, aka Felwood Forest,  is a contested zone located north of Ashenvale, east of Darkshore, and west of Hyjal and Winterspring. It is a corrupted forest filled with tainted creatures of the woods, demonic satyr and infernals, rotting treants and ancients, as well as the tauren and night elves who try to battle back the sickening of the land. It is also home to one of the two tribes of pure furbolgs left in the world \u2014 the Timbermaw.",
+            "description": "Felwood, aka Felwood Forest,  is a contested zone located north of Ashenvale, east of Darkshore, and west of Hyjal and Winterspring. It is a corrupted forest filled with tainted creatures of the woods, demonic satyr and infernals, rotting treants and ancients, as well as the tauren and night elves who try to battle back the sickening of the land. It is also home to one of the two tribes of pure furbolgs left in the world - the Timbermaw.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Felwood_(Classic)"
@@ -235,7 +235,7 @@
         {
             "id": 29,
             "name": "Feralas",
-            "description": "Unlike its barren neighbors to the north, south and east, Feralas is a lush jungle. Both the Horde and the Alliance lay claim to the area and both factions have to contend with powerful local forces, which include, most notoriously, the bloodthirsty Gordunni ogres which populate the region and control a number of ancient Elven ruins scattered in the area, including the vast dungeon of Dire Maul. Gordunni ogres have desecrated and defiled much of Feralas and have damaged the land with their taint...",
+            "description": "Unlike its barren neighbors to the north, south and east, Feralas is a lush jungle. Both the Horde and the Alliance lay claim to the area and both factions have to contend with powerful local forces, which include, most notoriously, the bloodthirsty Gordunni ogres which populate the region and control a number of ancient Elven ruins scattered in the area, including the vast dungeon of Dire Maul. Gordunni ogres have desecrated and defiled much of Feralas and have damaged the land with their taint. The Horde, in particular, is concerned with the unchecked expansion of the Gordunni clan and has put out a call for adventurers to aid the war effort against the Ogres. Feralas is also home to a number of scattered Grimtotem tauren tribes, members of which are hunted by Horde agents on the orders from Belgrom Rockmaul in Orgrimmar. In addition the far western islands are crawling with Naga and recently several Silithid hives have been spotted in the region.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Feralas_(Classic)"
@@ -291,7 +291,7 @@
         {
             "id": 36,
             "name": "Moonglade",
-            "description": "The Moonglade (also spelled Moonglades and Moon Glade) is a vale in Northern Kalimdor that serves as a haven for druids, and is also the home of the Cenarion Circle. Here, tauren and night elves coexist peacefully, united by their reverence for the spirit of nature. Conflict between the races in Moonglade is not tolerated by the Moonglade Wardens stationed throughout the main town of Nighthaven, who will respond to any violence initiated against individuals with a favorable reputation w...",
+            "description": "The Moonglade (also spelled Moonglades and Moon Glade) is a vale in Northern Kalimdor that serves as a haven for druids, and is also the home of the Cenarion Circle. Moonglade's reflection within the Emerald Dream is the most sacred place in the entire realm. Here, tauren and night elves coexist peacefully, united by their reverence for the spirit of nature. Conflict between the races in Moonglade is not tolerated by the Moonglade Wardens stationed throughout the main town of Nighthaven, who will respond to any violence initiated against individuals with a favorable reputation with the Circle. The demigod Omen sleeps at the depths of the central lake, awakening every year around the time of the Lunar Festival, after which he is routinely put to rest. The Lunar Festival itself is based in Nighthaven and the Moonkin Festival also occurs in the area. In a corrupted version version of the Moonglade located within the Emerald Nightmare, an entrance to the Rift of Aln can be found.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Moonglade"
@@ -323,7 +323,7 @@
         {
             "id": 40,
             "name": "Orgrimmar",
-            "description": "Orgrimmar  is the capital city of the orcs, and the Horde as a whole. Nestled into a system of valleys on the northern edge of Durotar, the imposing warrior city is the seat of the Horde Council that governs the entire faction. It is the primary hub for player characters of the Horde and, as with all capital cities, has banks, class and profession trainers, and auction houses. The equivalent hub for the Alliance is Stormwind City.",
+            "description": "Orgrimmar is the capital city of the orcs, and the Horde as a whole. Nestled into a system of valleys on the northern edge of Durotar, the imposing warrior city is the seat of the Horde Council that governs the entire faction.",
             "faction": "Neutral",
             "type": "City",
             "link": "https://warcraft.wiki.gg/wiki/Orgrimmar"
@@ -379,7 +379,7 @@
         {
             "id": 47,
             "name": "Scholomance",
-            "description": "The Scholomance is housed within a series of crypts that lie beneath the ruined keep of Caer Darrow. Once owned by the noble Barov family, Caer Darrow fell into ruin following the Second War. As the wizard Kel'thuzad enlisted followers for his Cult of the Damned, he would often promise immortality in exchange for serving the Lich King. The Barov family fell to Kel'thuzad's charismatic influence and donated the keep and its crypts to the Scourge. The cultists then killed the Barovs and turned the ancient crypts into a school for necromancy known as the Scholomance. Though Kel'thuzad no longer resides in the crypts, devoted cultists and instructors still remain. The powerful lich, Ras Frostwhisper, rules over the site and guards it in the Scourge's name \u00e2\u20ac\u201d while the mortal necromancer, Darkmaster Gandling, serves as the school's insidious headmaster.",
+            "description": "The Scholomance is housed within a series of crypts that lie beneath the ruined keep of Caer Darrow. Once owned by the noble Barov family, Caer Darrow fell into ruin following the Second War. As the wizard Kel'thuzad enlisted followers for his Cult of the Damned, he would often promise immortality in exchange for serving the Lich King. The Barov family fell to Kel'thuzad's charismatic influence and donated the keep and its crypts to the Scourge. The cultists then killed the Barovs and turned the ancient crypts into a school for necromancy known as the Scholomance. Though Kel'thuzad no longer resides in the crypts, devoted cultists and instructors still remain. The powerful lich, Ras Frostwhisper, rules over the site and guards it in the Scourge's name - while the mortal necromancer, Darkmaster Gandling, serves as the school's insidious headmaster.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Scholomance_(Classic)"
@@ -419,7 +419,7 @@
         {
             "id": 52,
             "name": "Stonetalon Mountains",
-            "description": "The Stonetalon Mountains, aka Stonetalons, are a range of peaks that lie west of the Barrens, south of Ashenvale, and north of Desolace. The mountains are traditionally the homeland of the harpies, but their numbers have dwindled as the bird-women spread east and south. Stonetalon Peak, the largest mountain in the range, has long been a sacred place for both the night elves and tauren. The night elves maintain a barrow and a glade at the top, where they commune regularly with the spirits of natu...",
+            "description": "The Stonetalon Mountains, aka Stonetalons, are a range of peaks that lie west of the Barrens, south of Ashenvale, and north of Desolace. The mountains are traditionally the homeland of the harpies, but their numbers have dwindled as the bird-women spread east and south. Stonetalon Peak, the largest mountain in the range, has long been a sacred place for both the night elves and tauren. The night elves maintain a barrow and a glade at the top, where they commune regularly with the spirits of nature. The mountains further south are less forested, although some sparse evergreens grow in certain spots, particularly the Greatwood Vale. The Venture Company have put a heavy toll on the land, cutting down almost all the trees in Windshear Crag and filling the air with soot, spoiling the area's water with oil and waste much to the fury of the orcs and tauren. The tauren have a holding in the centrally located Sun Rock Retreat and the Darkspear trolls have a settlement further south at Malaka'jin. The mountains are also home to kobolds, spiders, and wyverns, while Charred Vale holds several especially dangerous kinds of beasts and elementals.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Stonetalon%20Mountains_(Classic)"
@@ -427,7 +427,7 @@
         {
             "id": 53,
             "name": "Stormwind City",
-            "description": "Stormwind City (a.k.a. New Stormwind or simply Stormwind), located north of Elwynn Forest on Azeroth region's northwest coast, is the capital city of the kingdom of Stormwind and the largest human city on Azeroth. After the Third War, it has become one of the last great human cities, and embodies the heart of the Alliance. Stormwind's willingness to work with others to find diplomatic solutions stands out as one of its true strengths. Its citizens hold fast to the principles of honor...",
+            "description": "Stormwind City (a.k.a. New Stormwind or simply Stormwind), located north of Elwynn Forest on Azeroth region's northwest coast, is the capital city of the kingdom of Stormwind and the largest human city on Azeroth. After the Third War, it has become one of the last great human cities, and embodies the heart of the Alliance. Stormwind's willingness to work with others to find diplomatic solutions stands out as one of its true strengths. Its citizens hold fast to the principles of honor and justice as they defend their settlements, and the Alliance, against any aggressors. No city better demonstrates human determination than Stormwind. Destroyed during the Horde's initial invasion of Azeroth, Stormwind was painstakingly reconstructed by the Stonemasons' Guild after the Second War. Parts of the city were razed again when Deathwing, the corrupted black Dragon Aspect, brutally attacked Stormwind, but the other undamaged districts are more beautiful than ever thanks to their hardworking inhabitants. From the magnificent Cathedral of Light, which serves as a major spiritual hub, to the awe-inspiring Valley of Heroes, which commemorates the sacrifices of Stormwind's loyal champions, the city truly represents the courageous heart of humanity, and serves as a bastion of the Holy Light.",
             "faction": "Neutral",
             "type": "City",
             "link": "https://warcraft.wiki.gg/wiki/Stormwind%20City"
@@ -435,7 +435,7 @@
         {
             "id": 54,
             "name": "Stranglethorn Vale",
-            "description": "Jungle trolls patrol this steaming rainforest. Ancient Gurubashi trolls once ruled the region, and the ruins of their great cities crumble in the jungle\u2019s heat and growth. Naga hunt along the coast and vicious animals and plants, including the eponymous strangle-thorns, make travel dangerous. The Arena, a center for gladiatorial games set in a ruined Gurubashi fighting stadium, draws shady characters of all races. The Blackwater Raiders, a vile group of pirates, make their home in Booty Bay, on the Stranglethorn\u2019s southern coast.",
+            "description": "Jungle trolls patrol this steaming rainforest. Ancient Gurubashi trolls once ruled the region, and the ruins of their great cities crumble in the jungle's heat and growth. Naga hunt along the coast and vicious animals and plants, including the eponymous strangle-thorns, make travel dangerous. The Arena, a center for gladiatorial games set in a ruined Gurubashi fighting stadium, draws shady characters of all races. The Blackwater Raiders, a vile group of pirates, make their home in Booty Bay, on the Stranglethorn's southern coast.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Stranglethorn%20Vale_(Classic)"
@@ -443,7 +443,7 @@
         {
             "id": 55,
             "name": "Stratholme",
-            "description": "The city of Stratholme (pronounced \u02c8strath\u02d0h\u0254lm or STRATH-olm)  was the northernmost and second most populous city of the kingdom of Lordaeron, and is the city where the Order of the Silver Hand was founded. Today, Stratholme is the Scourge's capital in Lordaeron. The mad Prince Arthas ravaged Stratholme in the Third War and the undead moved in soon after. Stratholme burns to this day, and its districts have been split between the overzealous Scarlet Crusade led by Grand Crusader Da...",
+            "description": "The city of Stratholme (pronounced STRATH-olm)  was the northernmost and second most populous city of the kingdom of Lordaeron, and is the city where the Order of the Silver Hand was founded. Today, Stratholme is the Scourge's capital in Lordaeron. The mad Prince Arthas ravaged Stratholme in the Third War and the undead moved in soon after. Stratholme burns to this day, and its districts have been split between the overzealous Scarlet Crusade led by Grand Crusader Dathrohan, and the Scourge forces led by the death knight Baron Rivendare.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Stratholme_(Classic)"
@@ -451,7 +451,7 @@
         {
             "id": 56,
             "name": "Sunken Temple",
-            "description": "Temple of Atal'Hakkar (also known as Sunken Temple and more rarely, Lost Temple) is a shrine erected by the Atal'ai trolls, led by their master Jammal'an the Prophet, to the nefarious Blood God \u2014 Hakkar the Soulflayer. Believing that this was the intended site for Hakkar's reentry into Azeroth, the great Dragon Aspect, Ysera, and her green dragonflight sunk the temple into the depths of the Swamp of Sorrows...but the dragons did not realize that it was the wrong location until it was too late.",
+            "description": "Temple of Atal'Hakkar (also known as Sunken Temple and more rarely, Lost Temple) is a shrine erected by the Atal'ai trolls, led by their master Jammal'an the Prophet, to the nefarious Blood God - Hakkar the Soulflayer. Believing that this was the intended site for Hakkar's reentry into Azeroth, the great Dragon Aspect, Ysera, and her green dragonflight sunk the temple into the depths of the Swamp of Sorrows... but the dragons did not realize that it was the wrong location until it was too late.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Sunken%20Temple_(Classic)"
@@ -467,7 +467,7 @@
         {
             "id": 58,
             "name": "Tanaris",
-            "description": "Tanaris is a desert located in southeastern Kalimdor, east of Un'Goro Crater and south of Thousand Needles. It is an arid land, covered in sand dunes and frequently exposed to dangerous sandstorms. The Steamwheedle Cartel has its main base of operations here - Steamwheedle Port and Gadgetzan have been founded by the goblins of Undermine since this desert is as close to home as they can get on the continents. The dock in Steamwheedle is presumably used for transport to the outer islands, but so f...",
+            "description": "Tanaris is a desert located in southeastern Kalimdor, east of Un'Goro Crater and south of Thousand Needles. It is an arid land, covered in sand dunes and frequently exposed to dangerous sandstorms. The Steamwheedle Cartel has its main base of operations here - Steamwheedle Port and Gadgetzan have been founded by the goblins of Undermine since this desert is as close to home as they can get on the continents. The dock in Steamwheedle is presumably used for transport to the outer islands, but so far, the goblins have proved unwilling to share the ships with the other races.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Tanaris_(Classic)"
@@ -507,7 +507,7 @@
         {
             "id": 63,
             "name": "The Hinterlands",
-            "description": "No description available.",
+            "description": "The Hinterlands, located in the eastern part of Lordaeron and part of the Eastern Kingdoms, is most notable for the Wildhammer dwarves who make their residence at Aerie Peak in the west. The Wildhammers have always been staunch allies of the Alliance. It is from the Hinterlands that these dwarves find and tame their world-renowned gryphons. The Razorbeak gryphons roam wild in this region. Also in the Hinterlands is one of the last remaining settlements of the high elves in Lordaeron at the Quel'Danil Lodge.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/The%20Hinterlands"
@@ -531,7 +531,7 @@
         {
             "id": 66,
             "name": "The Veiled Sea",
-            "description": "The Veiled Sea is the name of the vast sea that lies to the north and west of Kalimdor. It is the location of the former night elven homeland of Teldrassil, and the group of islands known as the Azuremyst Isles \u2014 where the draenei inter-planar vessel named The Exodar crash-landed.",
+            "description": "The Veiled Sea is the name of the vast sea that lies to the north and west of Kalimdor. It is the location of the former night elven homeland of Teldrassil, and the group of islands known as the Azuremyst Isles - where the draenei inter-planar vessel named The Exodar crash-landed.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/The%20Veiled%20Sea"
@@ -539,7 +539,7 @@
         {
             "id": 67,
             "name": "Thousand Needles",
-            "description": "Thousand Needles (aka The Thousand Needles) is a huge dry canyon in Southern Kalimdor, filled with towering mesas.  In the east, the canyon opens up to the Shimmering Flats, a vast salt pan that is used by Goblin and Gnomish engineers for their races. Despite being relatively barren, the area has its own harsh beauty, and the sunrise seen from either Freewind Post or one of the mesas around Darkcloud Pinnacle can be spectacular. The Shimmering Flats and Mirage Raceway are also worth visiting ...",
+            "description": "Thousand Needles (aka The Thousand Needles) is a huge dry canyon in Southern Kalimdor, filled with towering mesas.  In the east, the canyon opens up to the Shimmering Flats, a vast salt pan that is used by Goblin and Gnomish engineers for their races. Despite being relatively barren, the area has its own harsh beauty, and the sunrise seen from either Freewind Post or one of the mesas around Darkcloud Pinnacle can be spectacular. The Shimmering Flats and Mirage Raceway are also worth visiting for their surreal, lonely atmosphere.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Thousand%20Needles_(Classic)"
@@ -547,7 +547,7 @@
         {
             "id": 68,
             "name": "Thunder Bluff",
-            "description": "Thunder Bluff (sometimes spelled as Thunderbluff) is the tauren capital city located in the northern part of the region of Mulgore on the continent of Kalimdor. The entire city is built on bluffs several hundred feet above the surrounding landscape and is accessible by elevators on the southwestern and northeastern sides. Established by the wise chieftain Cairne Bloodhoof and his stalwart tribe, Thunder Bluff overlooks the verdant land of Mulgore from atop a series of windswept mesas...",
+            "description": "Thunder Bluff (sometimes spelled as Thunderbluff) is the tauren capital city located in the northern part of the region of Mulgore on the continent of Kalimdor. The entire city is built on bluffs several hundred feet above the surrounding landscape and is accessible by elevators on the southwestern and northeastern sides. Established by the wise chieftain Cairne Bloodhoof and his stalwart tribe, Thunder Bluff overlooks the verdant land of Mulgore from atop a series of windswept mesas. Prior to the construction of the capital, the tauren had lived as nomads for countless generations, often under attack by marauding bands of centaur. With Thunder Bluff’s founding, however, the proud and good-spirited race was finally granted a permanent home. The city of many tribes is a hub for tauren, welcoming tradesfolk and artisans of every kind.",
             "faction": "Neutral",
             "type": "City",
             "link": "https://warcraft.wiki.gg/wiki/Thunder%20Bluff"
@@ -603,7 +603,7 @@
         {
             "id": 75,
             "name": "Western Plaguelands",
-            "description": "The Western Plaguelands are located in northern Lordaeron, wedged between Tirisfal Glades to the west, the Eastern Plaguelands to the east, and the Alterac Mountains to the south. It is filled with a smoky gray mist and the creatures here are blighted and sick, angrily attacking anyone who wanders too close with surprising ferocity. The land is also home to countless undead who infest the ruins of Andorhal, the four cauldron fields, and Sorrow Hill. The Scarlet Crusade has a significant holding ...",
+            "description": "The Western Plaguelands are located in northern Lordaeron, wedged between Tirisfal Glades to the west, the Eastern Plaguelands to the east, and the Alterac Mountains to the south. It is filled with a smoky gray mist and the creatures here are blighted and sick, angrily attacking anyone who wanders too close with surprising ferocity. The land is also home to countless undead who infest the ruins of Andorhal, the four cauldron fields, and Sorrow Hill. The Scarlet Crusade has a significant holding in and around Hearthglen to the north, and the Alliance has settled in the small Chillwind Camp to the south. Like their eastern counterparts, the Western Plaguelands were once fertile and beautiful but are now gray, blighted and noxious. Undead wander the land and haunt the abandoned towns and farmsteads. The largest Scourge city here is Andorhal, beneath which is an underground complex housing the undead’s School of Necromancy. The Scarlet Crusade strikes against the Scourge from Hearthglen. The only place of any sanity in the Western Plaguelands is Uther's Tomb, a consecrated monument to the fallen hero Uther Lightbringer.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Western%20Plaguelands_(Classic)"
@@ -611,7 +611,7 @@
         {
             "id": 76,
             "name": "Westfall",
-            "description": "Westfall borders the Kingdom of Stormwind and is mostly populated by humans not under the Alliance\u2019s complete control. The region was stolen right under the Alliance\u2019s nose by its own bitter people. This rich land has lain fallow since the Second War, but it is now held by the Defias Brotherhood. Stormwind claims the land as its own, but it has found little time to be concerned with it, with insufficient funds and might to retake the region. A handful of farmers still try to keep their land, and...",
+            "description": "Westfall borders the Kingdom of Stormwind and is mostly populated by humans not under the Alliance’s complete control. The region was stolen right under the Alliance’s nose by its own bitter people. This rich land has lain fallow since the Second War, but it is now held by the Defias Brotherhood. Stormwind claims the land as its own, but it has found little time to be concerned with it, with insufficient funds and might to retake the region. A handful of farmers still try to keep their land, and some even attempt a tithe to Stormwind every year, but most only grow enough to feed themselves. The Defias Brotherhood controls much of the region, focused in the southern area of Moonbrook.",
             "faction": "Neutral",
             "type": "Zone",
             "link": "https://warcraft.wiki.gg/wiki/Westfall_(Classic)"
