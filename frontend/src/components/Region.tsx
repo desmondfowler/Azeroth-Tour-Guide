@@ -64,7 +64,7 @@ export default function Region({ name, description, faction, type, screenshot, a
                 <img
                     src={screenshot || '/placeholder-screenshot.jpg'}
                     alt={`${name} Screenshot`}
-                    className="w-full h-64 object-cover rounded-lg shadow-md border border-amber-700"
+                    className="w-full h-64 object-contain rounded-lg shadow-md border border-amber-700"
                 />
             </div>
 
