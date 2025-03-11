@@ -6,5 +6,7 @@ So, housed in this folder are a bunch of the python scripts I used to web scrape
 2. `scrape_info.py`
 3. `add_links.py`
 4. `check_links.py`
+5. `redo_ids.py`
+6. `fix_factions.py`
 
 I surely could have done this all in one, but I kept getting one step done and thinking, "Wait, I need to do THIS too..."
