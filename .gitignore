@@ -28,6 +28,8 @@ backend/*.log
 backend/local_settings.py
 backend/db.sqlite3
 backend/db.sqlite3-journal
+# Get rid of iterated JSONs from scripts in data-manipulation
+backend/data/archive/
 
 # React Frontend (./frontend/)
 frontend/node_modules/
@@ -40,6 +42,7 @@ frontend/coverage/
 frontend/npm-debug.log*
 frontend/yarn-debug.log*
 frontend/yarn-error.log*
+# Get rid of Tailwind
 frontend/src/css/*.css
 
 
