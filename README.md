@@ -79,6 +79,8 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 ### Local Development
 
+These steps assume Windows, I will create Linux steps at some point (but you probably know how to translate already).
+
 1. **Clone the Repo**  
    ```bash
    git clone https://github.com/yourusername/azeroth-tour-guide.git
@@ -86,16 +88,19 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
    ```
 
 2. **Backend Setup**  
+   - Create venv: `python -m venv .venv`
+   - Activate venv: `.\.venv\Scripts\activate`
    - Install deps: `pip install -r requirements.txt`
-   - Run Flask: `python app.py`
+   - Run Flask: `python .\backend\app.py`
 
 3. **Frontend Setup**  
    - Go to frontend: `cd frontend`
    - Install deps: `npm install`
-   - Start React: `npm start`
+   - Build static files that Flask serves: `npx vite build`
 
 4. **Database**  
-   - Set up MySQL locally or somewhere else.
+   - Right now, I'm just using a JSON with scraped data from [https://wowpedia.fandom.com](https://wowpedia.fandom.com). 
+   - Eventually... Set up your MySQL (then eventually again, PostgreSQL) database
    - Tweak the backend config with the connection string (like mysql://user:password@localhost:3306/azeroth_db).
 
 ### Deployment
