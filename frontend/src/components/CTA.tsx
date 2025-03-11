@@ -1,6 +1,5 @@
 // components/CTA.tsx
 
-import RandomRegionButton from "./RandomRegionButton";
 import StartExploringAzerothButton from "./StartExploringAzerothButton";
 
 export default function CTA() {
@@ -19,7 +18,6 @@ export default function CTA() {
                     </p>
                     <div className="mt-6 flex flex-row justify-center space-x-4">
                         <StartExploringAzerothButton />
-                        <RandomRegionButton />
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@ export default function RandomRegionButton() {
     return (
 
 
-        <button onClick={handleClick} className="inline-block bg-amber-400 text-gray-900 font-bold px-6 py-3 rounded-lg shadow-lg hover:bg-amber-500 transition-all">
+        <button onClick={handleClick} className="inline-block bg-amber-400 text-gray-900 font-bold px-2 py-1 rounded-lg shadow-lg hover:bg-amber-500 transition-all sm:px-2 sm:py-1">
             Explore a Random Region!
         </button>
 
