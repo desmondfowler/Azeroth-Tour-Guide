@@ -1,7 +1,7 @@
 import json
 import random
 from flask import Flask, send_from_directory, jsonify
-regions_json = "./data/updated_regions.json"
+regions_json = "./data/regions.json"
 
 app = Flask(__name__, static_folder='../frontend/dist', static_url_path='')
 
