@@ -96,6 +96,7 @@ These steps assume Windows, I will create Linux steps at some point (but you pro
 3. **Frontend Setup**  
    - Go to frontend: `cd frontend`
    - Install deps: `npm install`
+   - Generate Tailwind: `npm run gen-tailwind`
    - Build static files that Flask serves: `npx vite build`
 
 4. **Database**  
