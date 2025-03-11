@@ -1,31 +1,93 @@
 // components/Region.tsx
 
+import { useMemo } from 'react';
+
 interface RegionProps {
     name: string;
     description: string;
-    faction: string;
-    type: string;
+    faction: 'Alliance' | 'Horde' | 'Neutral' | 'Qiraji' | 'Unknown' | string;
+    type: 'Zone' | 'Dungeon' | 'Raid' | 'City' | 'Battleground' | 'Unknown' | string;
 }
 
+const factionStyles: Record<
+    'Alliance' | 'Horde' | 'Neutral' | 'Qiraji' | 'Unknown',
+    string
+> = {
+    Alliance: 'bg-blue-900 border-blue-500 text-blue-100',
+    Horde: 'bg-red-900 border-red-500 text-red-100',
+    Neutral: 'bg-gray-800 border-gray-500 text-gray-100',
+    Qiraji: 'bg-yellow-900 border-yellow-600 text-yellow-100',
+    Unknown: 'bg-gray-700 border-gray-600 text-gray-300',
+};
+
+const typeStyles: Record<
+    'Zone' | 'Dungeon' | 'Raid' | 'City' | 'Battleground' | 'Unknown',
+    string
+> = {
+    Zone: 'bg-green-700 text-white',
+    Dungeon: 'bg-purple-700 text-white',
+    Raid: 'bg-orange-700 text-white',
+    City: 'bg-teal-700 text-white',
+    Battleground: 'bg-indigo-700 text-white', // Matches header indigo
+    Unknown: 'bg-gray-600 text-white',
+};
+
 export default function Region({ name, description, faction, type }: RegionProps) {
+    const factionClass = useMemo(
+        () => factionStyles[faction as keyof typeof factionStyles] || factionStyles.Unknown,
+        [faction]
+    );
+    const typeClass = useMemo(
+        () => typeStyles[type as keyof typeof typeStyles] || typeStyles.Unknown,
+        [type]
+    );
+
     return (
-        <div className="p-6 text-white">
-            <h1 className="text-2xl font-bold">{name}</h1>
-            <p><strong>Description:</strong> {description || "No description available"}</p>
-            <p><strong>Faction:</strong> {faction || "Unknown"}</p>
-            <p><strong>Type:</strong> {type || "Unknown"}</p>
+        <div
+            className={`max-w-md mx-auto p-6 rounded-xl shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-amber-500/50 ${factionClass}`}
+            style={{
+                backgroundImage: 'linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("/parchment-bg.jpg")',
+                backgroundSize: 'cover',
+                border: '2px solid rgba(255, 193, 7, 0.2)',
+                boxShadow: '0 4px 15px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(255, 193, 7, 0.1)',
+            }}
+        >
+            {/* Header with WoW-style border */}
+            <h1 className="text-4xl font-extrabold mb-4 text-center tracking-wider text-amber-300 drop-shadow-lg border-b-2 border-amber-700 pb-2">
+                {name}
+            </h1>
+
+            {/* Description with scroll if long */}
+            <div className="mb-4 max-h-32 overflow-y-auto text-sm italic text-gray-200">
+                <strong className="text-amber-400">Description:</strong>{' '}
+                {description || 'No description available'}
+            </div>
+
+            {/* Faction Badge with Icon */}
+            <div className="flex items-center mb-3">
+                <span className="text-sm font-semibold text-amber-300 mr-2">Faction:</span>
+                <span
+                    className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${factionClass} flex items-center`}
+                >
+                    {faction === 'Alliance' && (
+                        <span className="mr-1">⚔️</span>
+                    )}
+                    {faction === 'Horde' && (
+                        <span className="mr-1">🛡️</span>
+                    )}
+                    {faction || 'Unknown'}
+                </span>
+            </div>
+
+            {/* Type Badge */}
+            <div className="flex items-center">
+                <span className="text-sm font-semibold text-amber-300 mr-2">Type:</span>
+                <span
+                    className={`px-3 py-1 rounded-full text-xs font-bold ${typeClass}`}
+                >
+                    {type || 'Unknown'}
+                </span>
+            </div>
         </div>
     );
 }
-
-
-// export default function Region({ name, description, faction, type }: RegionProps) {
-//     return (
-//         <div className="p-6 text-white">
-//             <h1 className="text-2xl font-bold">{name}</h1>
-//             <p><strong>Description:</strong> {description || "No description available"}</p>
-//             <p><strong>Faction:</strong> {faction || "Neutral"}</p>
-//             <p><strong>Type:</strong> {type || "Unknown"}</p>
-//         </div>
-//     );
-// };
