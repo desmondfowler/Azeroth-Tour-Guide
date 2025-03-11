@@ -47,35 +47,40 @@ export default function Region({ name, description, faction, type, screenshot, a
         <div
             className={`max-w-2xl mx-auto p-6 rounded-xl shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-amber-500/50 ${factionClass}`}
             style={{
-                backgroundImage: 'linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("/parchment-bg.jpg")',
+                backgroundImage: 'linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("/parchment-bg.png")',
                 backgroundSize: 'cover',
-                border: '2px solid rgba(255, 193, 7, 0.2)',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                border: '2px solid rgba(255, 193, 7, 0.3)',
                 boxShadow: '0 4px 15px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(255, 193, 7, 0.1)',
+                minHeight: '100%',
+                backgroundColor: '#f5e8c7',
+
             }}
         >
             {/* Header with WoW-style border */}
-            <h1 className="text-4xl font-extrabold mb-4 text-center tracking-wider text-amber-300 drop-shadow-lg border-b-2 border-amber-700 pb-2">
+            < h1 className="text-4xl font-extrabold mb-4 text-center tracking-wider text-amber-300 drop-shadow-lg border-b-2 border-amber-700 pb-2" >
                 {name}
-            </h1>
+            </h1 >
 
             {/* Screenshot Section */}
-            <div className="mb-4">
+            < div className="mb-4" >
                 <strong className="text-amber-400 block mb-2">Screenshot:</strong>
                 <img
-                    src={screenshot || '/placeholder-screenshot.jpg'}
+                    src={screenshot || '/placeholder-screenshot.png'}
                     alt={`${name} Screenshot`}
                     className="w-full h-64 object-contain rounded-lg shadow-md border border-amber-700"
                 />
-            </div>
+            </div >
 
             {/* Description with scroll if long */}
-            <div className="mb-4 max-h-32 overflow-y-auto text-sm italic text-gray-200">
+            < div className="mb-4 max-h-32 overflow-y-auto text-sm italic text-gray-200" >
                 <strong className="text-amber-400">Description:</strong>{' '}
                 {description || 'No description available'}
-            </div>
+            </div >
 
             {/* Faction Badge with Icon */}
-            <div className="flex items-center mb-3">
+            < div className="flex items-center mb-3" >
                 <span className="text-sm font-semibold text-amber-300 mr-2">Faction:</span>
                 <span
                     className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${factionClass} flex items-center`}
@@ -84,18 +89,18 @@ export default function Region({ name, description, faction, type, screenshot, a
                     {faction === 'Horde' && <span className="mr-1">🛡️</span>}
                     {faction || 'Unknown'}
                 </span>
-            </div>
+            </div >
 
             {/* Type Badge */}
-            <div className="flex items-center mb-4">
+            < div className="flex items-center mb-4" >
                 <span className="text-sm font-semibold text-amber-300 mr-2">Type:</span>
                 <span className={`px-3 py-1 rounded-full text-xs font-bold ${typeClass}`}>
                     {type || 'Unknown'}
                 </span>
-            </div>
+            </div >
 
             {/* Activities Section */}
-            <div className="mb-4">
+            < div className="mb-4" >
                 <strong className="text-amber-400 block mb-2">Activities:</strong>
                 <ul className="list-disc pl-5 text-sm text-gray-200">
                     {activities && activities.length > 0 ? (
@@ -108,7 +113,7 @@ export default function Region({ name, description, faction, type, screenshot, a
                         <li>No activities available</li>
                     )}
                 </ul>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 }
