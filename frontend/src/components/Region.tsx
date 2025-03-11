@@ -1,5 +1,4 @@
 // components/Region.tsx
-
 import { useMemo } from 'react';
 
 interface RegionProps {
@@ -7,6 +6,8 @@ interface RegionProps {
     description: string;
     faction: 'Alliance' | 'Horde' | 'Neutral' | 'Qiraji' | 'Unknown' | string;
     type: 'Zone' | 'Dungeon' | 'Raid' | 'City' | 'Battleground' | 'Unknown' | string;
+    screenshot?: string; // URL or path to in-game screenshot
+    activities?: string[]; // Array of activity suggestions
 }
 
 const factionStyles: Record<
@@ -28,11 +29,11 @@ const typeStyles: Record<
     Dungeon: 'bg-purple-700 text-white',
     Raid: 'bg-orange-700 text-white',
     City: 'bg-teal-700 text-white',
-    Battleground: 'bg-indigo-700 text-white', // Matches header indigo
+    Battleground: 'bg-indigo-700 text-white',
     Unknown: 'bg-gray-600 text-white',
 };
 
-export default function Region({ name, description, faction, type }: RegionProps) {
+export default function Region({ name, description, faction, type, screenshot, activities }: RegionProps) {
     const factionClass = useMemo(
         () => factionStyles[faction as keyof typeof factionStyles] || factionStyles.Unknown,
         [faction]
@@ -44,7 +45,7 @@ export default function Region({ name, description, faction, type }: RegionProps
 
     return (
         <div
-            className={`max-w-md mx-auto p-6 rounded-xl shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-amber-500/50 ${factionClass}`}
+            className={`max-w-2xl mx-auto p-6 rounded-xl shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-amber-500/50 ${factionClass}`}
             style={{
                 backgroundImage: 'linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("/parchment-bg.jpg")',
                 backgroundSize: 'cover',
@@ -56,6 +57,16 @@ export default function Region({ name, description, faction, type }: RegionProps
             <h1 className="text-4xl font-extrabold mb-4 text-center tracking-wider text-amber-300 drop-shadow-lg border-b-2 border-amber-700 pb-2">
                 {name}
             </h1>
+
+            {/* Screenshot Section */}
+            <div className="mb-4">
+                <strong className="text-amber-400 block mb-2">Screenshot:</strong>
+                <img
+                    src={screenshot || '/placeholder-screenshot.jpg'}
+                    alt={`${name} Screenshot`}
+                    className="w-full h-64 object-cover rounded-lg shadow-md border border-amber-700"
+                />
+            </div>
 
             {/* Description with scroll if long */}
             <div className="mb-4 max-h-32 overflow-y-auto text-sm italic text-gray-200">
@@ -69,24 +80,34 @@ export default function Region({ name, description, faction, type }: RegionProps
                 <span
                     className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${factionClass} flex items-center`}
                 >
-                    {faction === 'Alliance' && (
-                        <span className="mr-1">⚔️</span>
-                    )}
-                    {faction === 'Horde' && (
-                        <span className="mr-1">🛡️</span>
-                    )}
+                    {faction === 'Alliance' && <span className="mr-1">⚔️</span>}
+                    {faction === 'Horde' && <span className="mr-1">🛡️</span>}
                     {faction || 'Unknown'}
                 </span>
             </div>
 
             {/* Type Badge */}
-            <div className="flex items-center">
+            <div className="flex items-center mb-4">
                 <span className="text-sm font-semibold text-amber-300 mr-2">Type:</span>
-                <span
-                    className={`px-3 py-1 rounded-full text-xs font-bold ${typeClass}`}
-                >
+                <span className={`px-3 py-1 rounded-full text-xs font-bold ${typeClass}`}>
                     {type || 'Unknown'}
                 </span>
+            </div>
+
+            {/* Activities Section */}
+            <div className="mb-4">
+                <strong className="text-amber-400 block mb-2">Activities:</strong>
+                <ul className="list-disc pl-5 text-sm text-gray-200">
+                    {activities && activities.length > 0 ? (
+                        activities.map((activity, index) => (
+                            <li key={index} className="mb-1">
+                                {activity || 'No activities available'}
+                            </li>
+                        ))
+                    ) : (
+                        <li>No activities available</li>
+                    )}
+                </ul>
             </div>
         </div>
     );
