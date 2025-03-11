@@ -8,6 +8,8 @@ interface RegionData {
     description: string;
     faction: string;
     type: string;
+    screenshot?: string; // Optional URL or path to in-game screenshot
+    activities?: string[]; // Array of activity suggestions
 }
 
 export default function RegionPage() {
@@ -27,10 +29,25 @@ export default function RegionPage() {
             })
             .then(function (data) {
                 console.log("Fetched data:", data);
-                setRegion(data);
+                // Add placeholders if fields are missing
+                const updatedData: RegionData = {
+                    ...data,
+                    screenshot: data.screenshot || '/placeholder-screenshot.jpg', // Default placeholder
+                    activities: data.activities || ['Explore the region!', 'Take a scenic tour!'], // Default activities
+                };
+                setRegion(updatedData);
             })
             .catch(function (error) {
                 console.error("Error fetching region data:", error);
+                // Fallback with placeholder data on error
+                setRegion({
+                    name: regionName,
+                    description: 'No description available due to error. Ragnaros ate it!',
+                    faction: 'Unknown',
+                    type: 'Unknown',
+                    screenshot: '/placeholder-screenshot.jpg',
+                    activities: ['Try not to get burned!', 'Dodge the circles!'],
+                });
             });
     }
 
@@ -42,11 +59,10 @@ export default function RegionPage() {
         <StrictMode>
             <div className="min-h-screen bg-gray-900 flex flex-col">
                 <Header />
-                <div>
+                <div className="flex justify-center p-4">
                     {region ? <Region {...region} /> : <p className="text-white p-6">Loading...</p>}
                 </div>
             </div>
-
         </StrictMode>
     );
 }
