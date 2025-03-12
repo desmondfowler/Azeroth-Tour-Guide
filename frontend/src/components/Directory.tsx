@@ -2,12 +2,12 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 interface Region {
-    name: string;
-    description?: string;
-    faction?: string;
-    type?: string;
-    screenshot?: string;
-    activities?: string[];
+  name: string;
+  description?: string;
+  faction?: string;
+  type?: string;
+  screenshot?: string;
+  activities?: string[];
 }
 
 export default function Directory() {
@@ -59,7 +59,7 @@ export default function Directory() {
       </h2>
       <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {regions.length > 0 ? (
-          regions.map(function (region) {
+          regions.map(function (region: Region) {
             return renderRegion(region);
           })
         ) : (
