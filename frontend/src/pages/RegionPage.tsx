@@ -20,7 +20,7 @@ export default function RegionPage() {
   function fetchRegionData() {
     console.log("Fetching region:", regionName);
 
-    fetch("http://127.0.0.1:5000/api/region/" + encodeURIComponent(regionName))
+    fetch("/api/region/" + encodeURIComponent(regionName))
       .then(function (response) {
         if (!response.ok) {
           throw new Error("HTTP error! Status: " + response.status);
