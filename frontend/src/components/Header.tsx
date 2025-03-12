@@ -35,6 +35,12 @@ export default function Header() {
               Azeroth
             </a>
             <a
+              href="/directory"
+              className="text-amber-400 hover:text-white transition-all duration-200 font-semibold tracking-wide drop-shadow-sm"
+            >
+              Directory
+            </a>
+            <a
               href="/contact"
               className="text-amber-400 hover:text-white transition-all duration-200 font-semibold tracking-wide drop-shadow-sm"
             >
@@ -91,12 +97,17 @@ export default function Header() {
                 Azeroth
               </a>
               <a
+                href="/directory"
+                className="block text-amber-400 hover:text-white transition-all duration-200 font-semibold tracking-wide drop-shadow-sm"
+              >
+                Directory
+              </a>
+              <a
                 href="/contact"
                 className="block text-amber-400 hover:text-white transition-all duration-200 font-semibold tracking-wide drop-shadow-sm"
               >
                 Contact
               </a>
-              {/* Add RandomRegionButton for mobile */}
               <div className="pt-2">
                 <RandomRegionButton />
               </div>
