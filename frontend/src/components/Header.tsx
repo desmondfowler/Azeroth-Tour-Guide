@@ -38,7 +38,7 @@ export default function Header() {
               href="/directory"
               className="text-amber-400 hover:text-white transition-all duration-200 font-semibold tracking-wide drop-shadow-sm"
             >
-              Directory
+              Region Directory
             </a>
             <a
               href="/contact"
@@ -100,7 +100,7 @@ export default function Header() {
                 href="/directory"
                 className="block text-amber-400 hover:text-white transition-all duration-200 font-semibold tracking-wide drop-shadow-sm"
               >
-                Directory
+                Region Directory
               </a>
               <a
                 href="/contact"
