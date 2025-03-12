@@ -10,7 +10,8 @@ def create_app():
 
     # Load regions data and attach to app config
     from .utils import load_regions
-    app.config['REGIONS'] = load_regions()
+    app.config['REGIONS'] = load_regions(app)
+    
 
     # Register routes
     from .api import register_api_routes
