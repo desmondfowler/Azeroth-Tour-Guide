@@ -22,3 +22,11 @@ def register_api_routes(app):
         if region:
             return jsonify(region)
         return jsonify({"error": "Region not found"}), 404
+    
+    @app.route("/api/regions", methods=["GET"])
+    def get_all_regions ():
+        """Returns all regions for the purposes of the directory."""
+        app.logger.debug("Fetching all regions")
+        regions_data = app.config("REGIONS")
+        app.logger.info(f"Returning {len(regions_data)} regions")
+        return jsonify({"regions": regions_data})
