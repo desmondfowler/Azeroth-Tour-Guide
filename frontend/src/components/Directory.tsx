@@ -24,6 +24,7 @@ export default function Directory() {
       })
       .then(function (data) {
         setRegions(data.regions || []);
+        setLoading(false)
       })
       .catch(function (error) {
         console.error("Error fetching regions:", error);
