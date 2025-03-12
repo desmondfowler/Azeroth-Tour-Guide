@@ -27,6 +27,6 @@ def register_api_routes(app):
     def get_all_regions ():
         """Returns all regions for the purposes of the directory."""
         app.logger.debug("Fetching all regions")
-        regions_data = app.config("REGIONS")
+        regions_data = app.config["REGIONS"]
         app.logger.info(f"Returning {len(regions_data)} regions")
         return jsonify({"regions": regions_data})
