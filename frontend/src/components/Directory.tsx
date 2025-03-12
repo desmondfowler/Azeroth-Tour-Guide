@@ -24,7 +24,7 @@ export default function Directory() {
       })
       .then(function (data) {
         setRegions(data.regions || []);
-        setLoading(false)
+        setLoading(false);
       })
       .catch(function (error) {
         console.error("Error fetching regions:", error);
@@ -39,17 +39,17 @@ export default function Directory() {
 
   function renderRegion(region: Region) {
     return (
-      <li
-        key={region.name}
-        className="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition"
+      <Link
+        to={"/region/" + encodeURIComponent(region.name)}
+        className="text-amber-400 hover:text-white font-semibold"
       >
-        <Link
-          to={"/region/" + encodeURIComponent(region.name)}
-          className="text-amber-400 hover:text-white font-semibold"
+        <li
+          key={region.name}
+          className="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition"
         >
           {region.name}
-        </Link>
-      </li>
+        </li>
+      </Link>
     );
   }
 
