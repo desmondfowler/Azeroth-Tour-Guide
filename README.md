@@ -23,54 +23,62 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 ## MVP Features (Bare Essentials)
 
-- **Interactive Map**  
-  - *STATIC*: Start with an SVG of Azeroth. Kalimdor, Eastern Kingdoms, the classics. *Implemented via static PNG*
-  - *NEXT*: Clickable regions that link to location details.  
-  - *NEXT*: Dynamic map with highlights.  
-  - *NEXT*: Add in new zones? I hear the Dragon Isles are nice this time of year.
+- **Interactive Map**
 
-- **Location Listings**  
-  - *STATIC*: Hardcoded list. Think Orgrimmar, Stormwind, etc. *Implemented via Region pages (e.g. `/The&20Barrens`)*
-  - *NEXT*: Add descriptions, maybe pull some lore from WoWpedia. *Partially implemented through region pages with description and faction info*
-  - *NEXT*: Toss in screenshots from WoW for images.  *Partially implemented through placeholders; API will serve real WoW shots later.*
+  - _STATIC_: Start with an SVG of Azeroth. Kalimdor, Eastern Kingdoms, the classics. _Implemented via static PNG_
+  - _NEXT_: Clickable regions that link to location details.
+  - _NEXT_: Dynamic map with highlights.
+  - _NEXT_: Add in new zones? I hear the Dragon Isles are nice this time of year.
 
-- **Search Functionality**  
-  - *STATIC*: A search bar that just sits there for now.  *Partially immplemented through random region button, full search bar up next!*
-  - *NEXT*: Filter locations based on what’s typed.  
-  - *NEXT*: Highlight matches on the dynamic map.
+- **Location Listings**
+
+  - _STATIC_: Hardcoded list. Think Orgrimmar, Stormwind, etc. _Implemented via Region pages (e.g. `/The&20Barrens`)_
+  - _NEXT_: Add descriptions, maybe pull some lore from WoWpedia. _Partially implemented through region pages with description and faction info_
+  - _NEXT_: Toss in screenshots from WoW for images. _Partially implemented through placeholders; API will serve real WoW shots later._
+
+- **Search Functionality**
+  - _STATIC_: A search bar that just sits there for now. _Partially immplemented through random region button, full search bar up next!_
+  - _NEXT_: Filter locations based on what’s typed.
+  - _NEXT_: Highlight matches on the dynamic map.
 
 ## Development Steps
 
-1. **Scope MVP**  
-   - Static map, simple location list, and a barebones search. Keep it small to start.  
+1. **Scope MVP**
 
-2. **Frontend**  
-   - Use **React** for the frontend. *(Done pages for home, Azeroth, contact, and regions)*
-   - Ensure mobile-responsive design so it doesn’t suck on my phone. *(Header has a mobile menu)*
+   - Static map, simple location list, and a barebones search. Keep it small to start.
 
-3. **Frontend Testing**  
-   - Throw it at Chrome, Firefox, maybe my phone, see what breaks. Ask friends for feedback.  
+2. **Frontend**
 
-4. **Backend**  
-   - Use **Python with Flask** for the server. *(Done—API serves region data!)*
-   - Start with **MySQL** for the database. *(Still using JSON for now. MySQL/PostgreSQL planned.)*
-   - Build a REST API to feed the frontend. *(Done—endpoints for regions are working!)*
+   - Use **React** for the frontend. _(Done pages for home, Azeroth, contact, and regions)_
+   - Ensure mobile-responsive design so it doesn’t suck on my phone. _(Header has a mobile menu)_
 
-5. **Integration**  
-   - Fetch API data to replace static content. *(Done—region pages fetch from the API!)*
+3. **Frontend Testing**
 
-6. **Backend Testing**  
-   - Write some `pytest` unit tests for the API.  *Basic tests started, more to come.*
-   - Smash frontend and backend together, pray it works.  
+   - Throw it at Chrome, Firefox, maybe my phone, see what breaks. Ask friends for feedback.
 
-7. **Deploy**  
-   - Dockerize it and deploy on HomeLab Kubernetes first.  
-   - Add monitoring so I know if it dies in the middle of the night.  
+4. **Backend**
+
+   - Use **Python with Flask** for the server. _(Done—API serves region data!)_
+   - Start with **MySQL** for the database. _(Still using JSON for now. MySQL/PostgreSQL planned.)_
+   - Build a REST API to feed the frontend. _(Done—endpoints for regions are working!)_
+
+5. **Integration**
+
+   - Fetch API data to replace static content. _(Done—region pages fetch from the API!)_
+
+6. **Backend Testing**
+
+   - Write some `pytest` unit tests for the API. _Basic tests started, more to come._
+   - Smash frontend and backend together, pray it works.
+
+7. **Deploy**
+   - Dockerize it and deploy on HomeLab Kubernetes first.
+   - Add monitoring so I know if it dies in the middle of the night.
 
 ## Future Features
 
-- **Core Ideas**: Themed trips like “Undead Road Trip” or “Dwarven Ale Crawl.” Inn and tavern recs. Maybe a fake booking system?  
-- **UX**: Logins, custom recs, sharing, maybe Darkmoon Faire event alerts.  
+- **Core Ideas**: Themed trips like “Undead Road Trip” or “Dwarven Ale Crawl.” Inn and tavern recs. Maybe a fake booking system?
+- **UX**: Logins, custom recs, sharing, maybe Darkmoon Faire event alerts.
 - **Cash Flow?**: No clue yet—ads? Fake premium tiers? Warcraft gold donations?
 
 ## Setup and Installation
@@ -89,32 +97,34 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 These steps assume Windows, I will create Linux steps at some point (but you probably know how to translate already).
 
-1. **Clone the Repo**  
+1. **Clone the Repo**
 
    ```bash
    git clone https://github.com/yourusername/azeroth-tour-guide.git
    cd azeroth-tour-guide
    ```
 
-2. **Backend Setup**  
+2. **Backend Setup**
+
    - Go to backend: `cd backend`
    - Install deps: `poetry install`
    - Run Flask: `poetry run python run.py` (starts the server)
 
-3. **Frontend Setup**  
+3. **Frontend Setup**
+
    - Go to frontend: `cd frontend`
    - Install deps: `npm install`
    - Generate Tailwind: `npm run gen-tailwind` (this runs with --watch for dev purposes right now, will change so it runs once when final product is ready)
    - Build static files that Flask serves: `npx vite build`
 
-4. **Database**  
-   - Right now, I’m using a JSON with scraped data from [https://warcraft.wiki.gg](https://warcraft.wiki.gg). *(Done!)*
+4. **Database**
+   - Right now, I’m using a JSON with scraped data from [https://warcraft.wiki.gg](https://warcraft.wiki.gg). _(Done!)_
    - Eventually... Set up MySQL (then PostgreSQL) and update the backend config.
    - Tweak the backend config with the connection string (like mysql://user:password@localhost:3306/azeroth_db).
 
 ### Testing
 
-- Backend Tests: ``cd backend && poetry run pytest``
+- Backend Tests: `cd backend && poetry run pytest`
   - This is currently just one test that makes sure `app is not None`.
 - Frontend Tests: Planned with Jest? Or maybe Vitest since I used Vite.
 

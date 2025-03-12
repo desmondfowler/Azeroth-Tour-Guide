@@ -1,6 +1,6 @@
 import "../css/tailwind.css";
-import { useState } from 'react'; // For mobile menu toggle
-import RandomRegionButton from './RandomRegionButton'; // Import the button component
+import { useState } from "react"; // For mobile menu toggle
+import RandomRegionButton from "./RandomRegionButton"; // Import the button component
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // State for mobile menu toggle
@@ -53,12 +53,21 @@ export default function Header() {
               aria-expanded={isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
-                  d={isMobileMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} // X icon when open, hamburger when closed
+                  d={
+                    isMobileMenuOpen
+                      ? "M6 18L18 6M6 6l12 12"
+                      : "M4 6h16M4 12h16M4 18h16"
+                  } // X icon when open, hamburger when closed
                 />
               </svg>
             </button>

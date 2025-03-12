@@ -8,10 +8,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Ahn%27Qiraj",
       "screenshot": "/screenshots/ahnqiraj.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 1,
@@ -21,10 +18,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Alterac%20Mountains_(Classic)",
       "screenshot": "/screenshots/alterac-mountains.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 2,
@@ -34,10 +28,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Alterac%20Valley",
       "screenshot": "/screenshots/alterac-valley.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 3,
@@ -47,10 +38,7 @@
       "type": "Battleground",
       "link": "https://warcraft.wiki.gg/wiki/Arathi%20Basin",
       "screenshot": "/screenshots/arathi-basin.png",
-      "activities": [
-        "Join the battle!",
-        "Capture the flag!"
-      ]
+      "activities": ["Join the battle!", "Capture the flag!"]
     },
     {
       "id": 4,
@@ -60,10 +48,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Arathi%20Highlands_(Classic)",
       "screenshot": "/screenshots/arathi-highlands.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 5,
@@ -73,10 +58,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Ashenvale_(Classic)",
       "screenshot": "/screenshots/ashenvale.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 6,
@@ -86,10 +68,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Azshara_(Classic)",
       "screenshot": "/screenshots/azshara.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 7,
@@ -99,10 +78,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Badlands_(Classic)",
       "screenshot": "/screenshots/badlands.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 8,
@@ -112,10 +88,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Blackfathom%20Deeps_(Classic)",
       "screenshot": "/screenshots/blackfathom-deeps.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 9,
@@ -125,10 +98,7 @@
       "type": "Raid",
       "link": "https://warcraft.wiki.gg/wiki/Blackrock%20Depths",
       "screenshot": "/screenshots/blackrock-depths.png",
-      "activities": [
-        "Defeat the bosses!",
-        "Gather your raid group!"
-      ]
+      "activities": ["Defeat the bosses!", "Gather your raid group!"]
     },
     {
       "id": 10,
@@ -138,10 +108,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Blackrock%20Mountain",
       "screenshot": "/screenshots/blackrock-mountain.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 11,
@@ -151,10 +118,7 @@
       "type": "Dwarven fortress",
       "link": "https://warcraft.wiki.gg/wiki/Blackrock%20Spire",
       "screenshot": "/screenshots/blackrock-spire.png",
-      "activities": [
-        "Clear the dungeon!",
-        "Collect rare loot!"
-      ]
+      "activities": ["Clear the dungeon!", "Collect rare loot!"]
     },
     {
       "id": 12,
@@ -164,10 +128,7 @@
       "type": "Raid",
       "link": "https://warcraft.wiki.gg/wiki/Blackwing%20Lair",
       "screenshot": "/screenshots/blackwing-lair.png",
-      "activities": [
-        "Defeat the bosses!",
-        "Gather your raid group!"
-      ]
+      "activities": ["Defeat the bosses!", "Gather your raid group!"]
     },
     {
       "id": 13,
@@ -177,10 +138,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Blasted%20Lands_(Classic)",
       "screenshot": "/screenshots/blasted-lands.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 14,
@@ -190,10 +148,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Burning%20Steppes_(Classic)",
       "screenshot": "/screenshots/burning-steppes.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 15,
@@ -203,10 +158,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Caverns%20of%20Time",
       "screenshot": "/screenshots/caverns-of-time.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 16,
@@ -216,10 +168,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Darkshore_(Classic)",
       "screenshot": "/screenshots/darkshore.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 17,
@@ -229,10 +178,7 @@
       "type": "City",
       "link": "https://warcraft.wiki.gg/wiki/Darnassus",
       "screenshot": "/screenshots/darnassus.png",
-      "activities": [
-        "Visit the local tavern!",
-        "Trade with merchants!"
-      ]
+      "activities": ["Visit the local tavern!", "Trade with merchants!"]
     },
     {
       "id": 18,
@@ -242,10 +188,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Deadwind%20Pass_(Classic)",
       "screenshot": "/screenshots/deadwind-pass.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 19,
@@ -255,10 +198,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Deeprun%20Tram",
       "screenshot": "/screenshots/deeprun-tram.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 20,
@@ -268,10 +208,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Desolace_(Classic)",
       "screenshot": "/screenshots/desolace.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 21,
@@ -281,10 +218,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Dire%20Maul",
       "screenshot": "/screenshots/dire-maul.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 22,
@@ -294,10 +228,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Dun%20Morogh_(Classic)",
       "screenshot": "/screenshots/dun-morogh.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 23,
@@ -307,10 +238,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Durotar_(Classic)",
       "screenshot": "/screenshots/durotar.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 24,
@@ -320,10 +248,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Duskwood_(Classic)",
       "screenshot": "/screenshots/duskwood.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 25,
@@ -333,10 +258,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Dustwallow%20Marsh_(Classic)",
       "screenshot": "/screenshots/dustwallow-marsh.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 26,
@@ -346,10 +268,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Eastern%20Plaguelands_(Classic)",
       "screenshot": "/screenshots/eastern-plaguelands.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 27,
@@ -359,10 +278,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Elwynn%20Forest_(Classic)",
       "screenshot": "/screenshots/elwynn-forest.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 28,
@@ -372,10 +288,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Felwood_(Classic)",
       "screenshot": "/screenshots/felwood.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 29,
@@ -385,10 +298,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Feralas_(Classic)",
       "screenshot": "/screenshots/feralas.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 30,
@@ -398,10 +308,7 @@
       "type": "Dungeon",
       "link": "https://warcraft.wiki.gg/wiki/Gnomeregan",
       "screenshot": "/screenshots/gnomeregan.png",
-      "activities": [
-        "Clear the dungeon!",
-        "Collect rare loot!"
-      ]
+      "activities": ["Clear the dungeon!", "Collect rare loot!"]
     },
     {
       "id": 31,
@@ -411,10 +318,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Hillsbrad%20Foothills_(Classic)",
       "screenshot": "/screenshots/hillsbrad-foothills.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 32,
@@ -424,10 +328,7 @@
       "type": "City",
       "link": "https://warcraft.wiki.gg/wiki/Ironforge",
       "screenshot": "/screenshots/ironforge.png",
-      "activities": [
-        "Visit the local tavern!",
-        "Trade with merchants!"
-      ]
+      "activities": ["Visit the local tavern!", "Trade with merchants!"]
     },
     {
       "id": 33,
@@ -437,10 +338,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Loch%20Modan_(Classic)",
       "screenshot": "/screenshots/loch-modan.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 34,
@@ -450,10 +348,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Maraudon",
       "screenshot": "/screenshots/maraudon.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 35,
@@ -463,10 +358,7 @@
       "type": "Raid",
       "link": "https://warcraft.wiki.gg/wiki/Molten%20Core",
       "screenshot": "/screenshots/molten-core.png",
-      "activities": [
-        "Defeat the bosses!",
-        "Gather your raid group!"
-      ]
+      "activities": ["Defeat the bosses!", "Gather your raid group!"]
     },
     {
       "id": 36,
@@ -476,10 +368,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Moonglade",
       "screenshot": "/screenshots/moonglade.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 37,
@@ -489,10 +378,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Mulgore_(Classic)",
       "screenshot": "/screenshots/mulgore.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 38,
@@ -502,10 +388,7 @@
       "type": "Raid",
       "link": "https://warcraft.wiki.gg/wiki/Naxxramas_(Classic)",
       "screenshot": "/screenshots/naxxramas.png",
-      "activities": [
-        "Defeat the bosses!",
-        "Gather your raid group!"
-      ]
+      "activities": ["Defeat the bosses!", "Gather your raid group!"]
     },
     {
       "id": 39,
@@ -515,10 +398,7 @@
       "type": "Raid",
       "link": "https://warcraft.wiki.gg/wiki/Onyxia%27s%20Lair_(Classic)",
       "screenshot": "/screenshots/onyxias-lair.png",
-      "activities": [
-        "Defeat the bosses!",
-        "Gather your raid group!"
-      ]
+      "activities": ["Defeat the bosses!", "Gather your raid group!"]
     },
     {
       "id": 40,
@@ -528,10 +408,7 @@
       "type": "City",
       "link": "https://warcraft.wiki.gg/wiki/Orgrimmar",
       "screenshot": "/screenshots/orgrimmar.png",
-      "activities": [
-        "Visit the local tavern!",
-        "Trade with merchants!"
-      ]
+      "activities": ["Visit the local tavern!", "Trade with merchants!"]
     },
     {
       "id": 41,
@@ -541,10 +418,7 @@
       "type": "Dungeon",
       "link": "https://warcraft.wiki.gg/wiki/Ragefire%20Chasm_(Classic)",
       "screenshot": "/screenshots/ragefire-chasm.png",
-      "activities": [
-        "Clear the dungeon!",
-        "Collect rare loot!"
-      ]
+      "activities": ["Clear the dungeon!", "Collect rare loot!"]
     },
     {
       "id": 42,
@@ -554,10 +428,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Razorfen%20Downs_(Classic)",
       "screenshot": "/screenshots/razorfen-downs.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 43,
@@ -567,10 +438,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Razorfen%20Kraul_(Classic)",
       "screenshot": "/screenshots/razorfen-kraul.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 44,
@@ -580,10 +448,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Redridge%20Mountains_(Classic)",
       "screenshot": "/screenshots/redridge-mountains.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 45,
@@ -593,10 +458,7 @@
       "type": "Raid",
       "link": "https://warcraft.wiki.gg/wiki/Ruins%20of%20Ahn%27Qiraj",
       "screenshot": "/screenshots/ruins-of-ahnqiraj.png",
-      "activities": [
-        "Defeat the bosses!",
-        "Gather your raid group!"
-      ]
+      "activities": ["Defeat the bosses!", "Gather your raid group!"]
     },
     {
       "id": 46,
@@ -606,10 +468,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Scarlet%20Monastery_(Classic)",
       "screenshot": "/screenshots/scarlet-monastery.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 47,
@@ -619,10 +478,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Scholomance_(Classic)",
       "screenshot": "/screenshots/scholomance.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 48,
@@ -632,10 +488,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Searing%20Gorge_(Classic)",
       "screenshot": "/screenshots/searing-gorge.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 49,
@@ -645,10 +498,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Shadowfang%20Keep_(Classic)",
       "screenshot": "/screenshots/shadowfang-keep.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 50,
@@ -658,10 +508,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Silithus_(Classic)",
       "screenshot": "/screenshots/silithus.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 51,
@@ -671,10 +518,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Silverpine%20Forest_(Classic)",
       "screenshot": "/screenshots/silverpine-forest.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 52,
@@ -684,10 +528,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Stonetalon%20Mountains_(Classic)",
       "screenshot": "/screenshots/stonetalon-mountains.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 53,
@@ -697,10 +538,7 @@
       "type": "City",
       "link": "https://warcraft.wiki.gg/wiki/Stormwind%20City",
       "screenshot": "/screenshots/stormwind-city.png",
-      "activities": [
-        "Visit the local tavern!",
-        "Trade with merchants!"
-      ]
+      "activities": ["Visit the local tavern!", "Trade with merchants!"]
     },
     {
       "id": 54,
@@ -710,10 +548,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Stranglethorn%20Vale_(Classic)",
       "screenshot": "/screenshots/stranglethorn-vale.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 55,
@@ -723,10 +558,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Stratholme_(Classic)",
       "screenshot": "/screenshots/stratholme.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 56,
@@ -736,10 +568,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Sunken%20Temple_(Classic)",
       "screenshot": "/screenshots/sunken-temple.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 57,
@@ -749,10 +578,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Swamp%20of%20Sorrows_(Classic)",
       "screenshot": "/screenshots/swamp-of-sorrows.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 58,
@@ -762,10 +588,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Tanaris_(Classic)",
       "screenshot": "/screenshots/tanaris.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 59,
@@ -775,10 +598,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Teldrassil_(Classic)",
       "screenshot": "/screenshots/teldrassil.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 60,
@@ -788,10 +608,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/The%20Barrens",
       "screenshot": "/screenshots/the-barrens.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 61,
@@ -801,10 +618,7 @@
       "type": "Dungeon",
       "link": "https://warcraft.wiki.gg/wiki/The%20Deadmines",
       "screenshot": "/screenshots/the-deadmines.png",
-      "activities": [
-        "Clear the dungeon!",
-        "Collect rare loot!"
-      ]
+      "activities": ["Clear the dungeon!", "Collect rare loot!"]
     },
     {
       "id": 62,
@@ -814,10 +628,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/The%20Great%20Sea",
       "screenshot": "/screenshots/the-great-sea.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 63,
@@ -827,10 +638,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/The%20Hinterlands",
       "screenshot": "/screenshots/the-hinterlands.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 64,
@@ -840,10 +648,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/The%20Stockade",
       "screenshot": "/screenshots/the-stockade.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 65,
@@ -853,10 +658,7 @@
       "type": "Dungeon",
       "link": "https://warcraft.wiki.gg/wiki/The%20Temple%20of%20Atal%27Hakkar",
       "screenshot": "/screenshots/the-temple-of-atalhakkar.png",
-      "activities": [
-        "Clear the dungeon!",
-        "Collect rare loot!"
-      ]
+      "activities": ["Clear the dungeon!", "Collect rare loot!"]
     },
     {
       "id": 66,
@@ -866,10 +668,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/The%20Veiled%20Sea",
       "screenshot": "/screenshots/the-veiled-sea.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 67,
@@ -879,10 +678,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Thousand%20Needles_(Classic)",
       "screenshot": "/screenshots/thousand-needles.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 68,
@@ -892,10 +688,7 @@
       "type": "City",
       "link": "https://warcraft.wiki.gg/wiki/Thunder%20Bluff",
       "screenshot": "/screenshots/thunder-bluff.png",
-      "activities": [
-        "Visit the local tavern!",
-        "Trade with merchants!"
-      ]
+      "activities": ["Visit the local tavern!", "Trade with merchants!"]
     },
     {
       "id": 69,
@@ -905,10 +698,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Tirisfal%20Glades_(Classic)",
       "screenshot": "/screenshots/tirisfal-glades.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 70,
@@ -918,10 +708,7 @@
       "type": "Group",
       "link": "https://warcraft.wiki.gg/wiki/Uldaman",
       "screenshot": "/screenshots/uldaman.png",
-      "activities": [
-        "Clear the dungeon!",
-        "Collect rare loot!"
-      ]
+      "activities": ["Clear the dungeon!", "Collect rare loot!"]
     },
     {
       "id": 71,
@@ -931,10 +718,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Un%27Goro%20Crater_(Classic)",
       "screenshot": "/screenshots/ungoro-crater.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 72,
@@ -944,10 +728,7 @@
       "type": "City",
       "link": "https://warcraft.wiki.gg/wiki/Undercity",
       "screenshot": "/screenshots/undercity.png",
-      "activities": [
-        "Visit the local tavern!",
-        "Trade with merchants!"
-      ]
+      "activities": ["Visit the local tavern!", "Trade with merchants!"]
     },
     {
       "id": 73,
@@ -957,10 +738,7 @@
       "type": "Dungeon",
       "link": "https://warcraft.wiki.gg/wiki/Wailing%20Caverns",
       "screenshot": "/screenshots/wailing-caverns.png",
-      "activities": [
-        "Clear the dungeon!",
-        "Collect rare loot!"
-      ]
+      "activities": ["Clear the dungeon!", "Collect rare loot!"]
     },
     {
       "id": 74,
@@ -970,10 +748,7 @@
       "type": "Battleground",
       "link": "https://warcraft.wiki.gg/wiki/Warsong%20Gulch",
       "screenshot": "/screenshots/warsong-gulch.png",
-      "activities": [
-        "Join the battle!",
-        "Capture the flag!"
-      ]
+      "activities": ["Join the battle!", "Capture the flag!"]
     },
     {
       "id": 75,
@@ -983,10 +758,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Western%20Plaguelands_(Classic)",
       "screenshot": "/screenshots/western-plaguelands.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 76,
@@ -996,10 +768,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Westfall_(Classic)",
       "screenshot": "/screenshots/westfall.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 77,
@@ -1009,10 +778,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Wetlands_(Classic)",
       "screenshot": "/screenshots/wetlands.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 78,
@@ -1022,10 +788,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Winterspring_(Classic)",
       "screenshot": "/screenshots/winterspring.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 79,
@@ -1035,10 +798,7 @@
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Zul%27Farrak",
       "screenshot": "/screenshots/zulfarrak.png",
-      "activities": [
-        "Explore the region!",
-        "Take a scenic tour!"
-      ]
+      "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
       "id": 80,
@@ -1048,10 +808,7 @@
       "type": "Raid",
       "link": "https://warcraft.wiki.gg/wiki/Zul%27Gurub_(Classic)",
       "screenshot": "/screenshots/zulgurub.png",
-      "activities": [
-        "Defeat the bosses!",
-        "Gather your raid group!"
-      ]
+      "activities": ["Defeat the bosses!", "Gather your raid group!"]
     }
   ]
 }
