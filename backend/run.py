@@ -1,14 +1,12 @@
 import logging
+import logging.config
+import os
 from app import create_app
 
-# Configure logging before app creation
-logging.basicConfig(
-    level=logging.DEBUG,
-    format='%(asctime)s [%(levelname)s] %(name)s: %(message)s',
-    handlers=[
-        logging.StreamHandler(),  # Console output
-        logging.FileHandler("flask_app.log")  # File output
-    ]
+# Load logging configuration from file
+logging.config.fileConfig(
+    os.path.join(os.path.dirname(__file__), 'logging.conf'),
+    disable_existing_loggers=False
 )
 
 app = create_app()
