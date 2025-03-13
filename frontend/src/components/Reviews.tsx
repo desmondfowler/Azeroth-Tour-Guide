@@ -19,7 +19,7 @@ export default function Reviews() {
       <h3 className="p-4 text-3xl font-extrabold text-amber-400 mx-auto text-center drop-shadow-lg">
         Read our reviews!
       </h3>
-      <div className="max-w-4xl mx-auto space-y-6 py-6">
+      <div className="max-w-[calc(100vw-66px)] sm:max-w-[calc(100vw-216px)] mx-auto py-6 grid sm:grid-cols-2 grid-cols-1 gap-6">
         {reviews.map((review, index) => (
           <div
             key={index}
