@@ -12,7 +12,7 @@ export default function Reviews() {
       .then((response) => response.json())
       .then((data) => setReviews(data.reviews))
       .catch((error) => console.error("Error fetching reviews: ", error));
-  });
+  }, []);
 
   return (
     <div className="bg-gray-900 py-6">
