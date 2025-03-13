@@ -56,7 +56,7 @@ def register_api_routes(app):
         for r in reviews_data:
             if r["author"] == author:
                 authored_reviews.append(r)
-        if authored_reviews.length() == 0:
+        if len(authored_reviews) == 0:
             return jsonify({"error": "Reviews not found"}), 404
         else:
             return jsonify({"reviews": authored_reviews})
