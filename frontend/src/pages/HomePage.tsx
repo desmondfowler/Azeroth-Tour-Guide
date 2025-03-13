@@ -9,7 +9,7 @@ export default function HomePage() {
       <div className="min-h-screen bg-gray-100 flex flex-col">
         <Header />
         <CTA />
-        <Reviews count={10} />
+        <Reviews />
       </div>
     </StrictMode>
   );

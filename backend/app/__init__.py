@@ -11,6 +11,9 @@ def create_app():
     # Load regions data and attach to app config
     from .utils import load_regions
     app.config['REGIONS'] = load_regions(app)
+    # Load reviews data and attach to app config
+    from .utils import load_reviews
+    app.config['REVIEWS'] = load_reviews(app)
     
 
     # Register routes

@@ -51,7 +51,7 @@ export default function RegionPage() {
             "No description available due to error. Ragnaros ate it!",
           faction: "Unknown",
           type: "Unknown",
-          screenshot: "/ragnaros-screenshot.png", // Ragnaros screenshot for errors
+          screenshot: "/ragnaros-screenshot.webp", // Ragnaros screenshot for errors
           activities: ["Try not to get burned!", "Dodge the circles!"],
         });
       });

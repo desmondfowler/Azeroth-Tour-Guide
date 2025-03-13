@@ -64,7 +64,7 @@ export default function Region({
       className={`max-w-2xl mx-auto p-6 rounded-xl shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-amber-500/50 ${factionClass}`}
       style={{
         backgroundImage:
-          'linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("/parchment-bg.png")',
+          'linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("/parchment-bg.webp")',
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -84,7 +84,7 @@ export default function Region({
       <div className="mb-4">
         <strong className="text-amber-400 block mb-2">Screenshot:</strong>
         <img
-          src={screenshot || "/placeholder-screenshot.png"}
+          src={screenshot || "/placeholder-screenshot.webp"}
           alt={`${name} Screenshot`}
           className="w-full h-64 object-contain rounded-lg shadow-md border border-amber-700"
         />

@@ -30,3 +30,34 @@ def register_api_routes(app):
         regions_data = app.config["REGIONS"]
         app.logger.info(f"Returning {len(regions_data)} regions")
         return jsonify({"regions": regions_data})
+    
+    @app.route("/api/random-reviews", methods=["GET"])
+    def get_random_reviews():
+        """Returns random reviews from the reviews file."""
+        num_reviews = 4
+        app.logger.debug("Fetching random reviews")
+        reviews_data = app.config['REVIEWS']
+        random_reviews = random.sample(reviews_data, k=num_reviews)
+        app.logger.info(f"Selected {num_reviews} random reviews")
+        return jsonify({"reviews": random_reviews})
+    
+    @app.route("/api/reviews", methods=["GET"])
+    def get_all_reviews():
+        """Returns all reviews."""
+        app.logger.debug("Fetching all reviews")
+        reviews_data = app.config["REVIEWS"]
+        app.logger.info(f"Returning {len(reviews_data)} reviews")
+        return jsonify({"reviews":reviews_data})
+    
+    @app.route("/api/review/<author>", methods=["GET"])
+    def get_review_by_author(author):
+        """Returns reviews by a specific author."""
+        reviews_data = app.config["REVIEWS"]
+        authored_reviews = []
+        for r in reviews_data:
+            if r["author"] == author:
+                authored_reviews.append(r)
+        if len(authored_reviews) == 0:
+            return jsonify({"error": "Reviews not found"}), 404
+        else:
+            return jsonify({"reviews": authored_reviews})
