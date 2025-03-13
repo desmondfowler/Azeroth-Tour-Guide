@@ -93,6 +93,14 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 - Kubernetes CLI
 - MySQL (eventually)
 
+### ⚠️ WSL Users (Windows Subsystem for Linux)
+
+If running in WSL, ensure:
+
+- You have installed Node.js inside WSL (not using the Windows version).
+- `npm` and `tsc` are running from WSL (`which node` should not point to `/mnt/c/`).
+- Run `npm install` **inside WSL** before running `npm run build`.
+
 ### Local Development
 
 These steps assume Windows, I will create Linux steps at some point (but you probably know how to translate already).
