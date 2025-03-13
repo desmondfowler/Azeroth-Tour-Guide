@@ -33,11 +33,12 @@ def register_api_routes(app):
     
     @app.route("/api/random-reviews", methods=["GET"])
     def get_random_reviews():
-        """Returns 3 random reviews from the reviews file."""
+        """Returns random reviews from the reviews file."""
+        num_reviews = 4
         app.logger.debug("Fetching random reviews")
         reviews_data = app.config['REVIEWS']
-        random_reviews = random.sample(reviews_data, k=3)
-        app.logger.info(f"Selected 3 random reviews")
+        random_reviews = random.sample(reviews_data, k=num_reviews)
+        app.logger.info(f"Selected {num_reviews} random reviews")
         return jsonify({"reviews": random_reviews})
     
     @app.route("/api/reviews", methods=["GET"])
