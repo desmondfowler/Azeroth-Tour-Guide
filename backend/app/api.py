@@ -30,3 +30,33 @@ def register_api_routes(app):
         regions_data = app.config["REGIONS"]
         app.logger.info(f"Returning {len(regions_data)} regions")
         return jsonify({"regions": regions_data})
+    
+    @app.route("/api/random-reviews", methods=["GET"])
+    def get_random_reviews():
+        """Returns 3 random reviews from the reviews file."""
+        app.logger.debut("Fetching random reviews")
+        reviews_data = app.config['REVIEWS']
+        random_reviews = random.sample(reviews_data, k=3)
+        app.logger.info(f"Selected 3 random reviews")
+        return jsonify({"reviews": random_reviews})
+    
+    @app.route("/api/reviews", methods=["GET"])
+    def get_all_reviews():
+        """Returns all reviews."""
+        app.logger.debug("Fetching all reviews")
+        reviews_data = app.config["REVIEWS"]
+        app.logger.info(f"Returning {len(reviews_data)} reviews")
+        return jsonify({"reviews":reviews_data})
+    
+    @app.route("/api/review/<author>", methods=["GET"])
+    def get_review_by_author(author):
+        """Returns reviews by a specific author."""
+        reviews_data = app.config["REVIEWS"]
+        authored_reviews = []
+        for r in reviews_data:
+            if r["author"] == author:
+                authored_reviews.append(r)
+        if authored_reviews.length() == 0:
+            return jsonify({"error": "Reviews not found"}), 404
+        else:
+            return jsonify({"reviews": authored_reviews})
