@@ -7,7 +7,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Ahn%27Qiraj",
-      "screenshot": "/screenshots/ahnqiraj.png",
+      "screenshot": "/screenshots/ahnqiraj.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -17,7 +17,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Alterac%20Mountains_(Classic)",
-      "screenshot": "/screenshots/alterac-mountains.png",
+      "screenshot": "/screenshots/alterac-mountains.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -27,7 +27,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Alterac%20Valley",
-      "screenshot": "/screenshots/alterac-valley.png",
+      "screenshot": "/screenshots/alterac-valley.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -37,7 +37,7 @@
       "faction": "Neutral",
       "type": "Battleground",
       "link": "https://warcraft.wiki.gg/wiki/Arathi%20Basin",
-      "screenshot": "/screenshots/arathi-basin.png",
+      "screenshot": "/screenshots/arathi-basin.webp",
       "activities": ["Join the battle!", "Capture the flag!"]
     },
     {
@@ -47,7 +47,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Arathi%20Highlands_(Classic)",
-      "screenshot": "/screenshots/arathi-highlands.png",
+      "screenshot": "/screenshots/arathi-highlands.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -57,7 +57,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Ashenvale_(Classic)",
-      "screenshot": "/screenshots/ashenvale.png",
+      "screenshot": "/screenshots/ashenvale.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -67,7 +67,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Azshara_(Classic)",
-      "screenshot": "/screenshots/azshara.png",
+      "screenshot": "/screenshots/azshara.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -77,7 +77,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Badlands_(Classic)",
-      "screenshot": "/screenshots/badlands.png",
+      "screenshot": "/screenshots/badlands.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -87,7 +87,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Blackfathom%20Deeps_(Classic)",
-      "screenshot": "/screenshots/blackfathom-deeps.png",
+      "screenshot": "/screenshots/blackfathom-deeps.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -97,7 +97,7 @@
       "faction": "Neutral",
       "type": "Raid",
       "link": "https://warcraft.wiki.gg/wiki/Blackrock%20Depths",
-      "screenshot": "/screenshots/blackrock-depths.png",
+      "screenshot": "/screenshots/blackrock-depths.webp",
       "activities": ["Defeat the bosses!", "Gather your raid group!"]
     },
     {
@@ -107,7 +107,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Blackrock%20Mountain",
-      "screenshot": "/screenshots/blackrock-mountain.png",
+      "screenshot": "/screenshots/blackrock-mountain.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -117,7 +117,7 @@
       "faction": "Neutral",
       "type": "Dwarven fortress",
       "link": "https://warcraft.wiki.gg/wiki/Blackrock%20Spire",
-      "screenshot": "/screenshots/blackrock-spire.png",
+      "screenshot": "/screenshots/blackrock-spire.webp",
       "activities": ["Clear the dungeon!", "Collect rare loot!"]
     },
     {
@@ -127,7 +127,7 @@
       "faction": "Neutral",
       "type": "Raid",
       "link": "https://warcraft.wiki.gg/wiki/Blackwing%20Lair",
-      "screenshot": "/screenshots/blackwing-lair.png",
+      "screenshot": "/screenshots/blackwing-lair.webp",
       "activities": ["Defeat the bosses!", "Gather your raid group!"]
     },
     {
@@ -137,7 +137,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Blasted%20Lands_(Classic)",
-      "screenshot": "/screenshots/blasted-lands.png",
+      "screenshot": "/screenshots/blasted-lands.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -147,7 +147,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Burning%20Steppes_(Classic)",
-      "screenshot": "/screenshots/burning-steppes.png",
+      "screenshot": "/screenshots/burning-steppes.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -157,7 +157,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Caverns%20of%20Time",
-      "screenshot": "/screenshots/caverns-of-time.png",
+      "screenshot": "/screenshots/caverns-of-time.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -167,7 +167,7 @@
       "faction": "Alliance",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Darkshore_(Classic)",
-      "screenshot": "/screenshots/darkshore.png",
+      "screenshot": "/screenshots/darkshore.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -177,7 +177,7 @@
       "faction": "Alliance",
       "type": "City",
       "link": "https://warcraft.wiki.gg/wiki/Darnassus",
-      "screenshot": "/screenshots/darnassus.png",
+      "screenshot": "/screenshots/darnassus.webp",
       "activities": ["Visit the local tavern!", "Trade with merchants!"]
     },
     {
@@ -187,7 +187,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Deadwind%20Pass_(Classic)",
-      "screenshot": "/screenshots/deadwind-pass.png",
+      "screenshot": "/screenshots/deadwind-pass.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -197,7 +197,7 @@
       "faction": "Alliance",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Deeprun%20Tram",
-      "screenshot": "/screenshots/deeprun-tram.png",
+      "screenshot": "/screenshots/deeprun-tram.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -207,7 +207,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Desolace_(Classic)",
-      "screenshot": "/screenshots/desolace.png",
+      "screenshot": "/screenshots/desolace.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -217,7 +217,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Dire%20Maul",
-      "screenshot": "/screenshots/dire-maul.png",
+      "screenshot": "/screenshots/dire-maul.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -227,7 +227,7 @@
       "faction": "Alliance",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Dun%20Morogh_(Classic)",
-      "screenshot": "/screenshots/dun-morogh.png",
+      "screenshot": "/screenshots/dun-morogh.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -237,7 +237,7 @@
       "faction": "Horde",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Durotar_(Classic)",
-      "screenshot": "/screenshots/durotar.png",
+      "screenshot": "/screenshots/durotar.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -247,7 +247,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Duskwood_(Classic)",
-      "screenshot": "/screenshots/duskwood.png",
+      "screenshot": "/screenshots/duskwood.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -257,7 +257,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Dustwallow%20Marsh_(Classic)",
-      "screenshot": "/screenshots/dustwallow-marsh.png",
+      "screenshot": "/screenshots/dustwallow-marsh.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -267,7 +267,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Eastern%20Plaguelands_(Classic)",
-      "screenshot": "/screenshots/eastern-plaguelands.png",
+      "screenshot": "/screenshots/eastern-plaguelands.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -277,7 +277,7 @@
       "faction": "Alliance",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Elwynn%20Forest_(Classic)",
-      "screenshot": "/screenshots/elwynn-forest.png",
+      "screenshot": "/screenshots/elwynn-forest.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -287,7 +287,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Felwood_(Classic)",
-      "screenshot": "/screenshots/felwood.png",
+      "screenshot": "/screenshots/felwood.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -297,7 +297,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Feralas_(Classic)",
-      "screenshot": "/screenshots/feralas.png",
+      "screenshot": "/screenshots/feralas.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -307,7 +307,7 @@
       "faction": "Neutral",
       "type": "Dungeon",
       "link": "https://warcraft.wiki.gg/wiki/Gnomeregan",
-      "screenshot": "/screenshots/gnomeregan.png",
+      "screenshot": "/screenshots/gnomeregan.webp",
       "activities": ["Clear the dungeon!", "Collect rare loot!"]
     },
     {
@@ -317,7 +317,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Hillsbrad%20Foothills_(Classic)",
-      "screenshot": "/screenshots/hillsbrad-foothills.png",
+      "screenshot": "/screenshots/hillsbrad-foothills.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -327,7 +327,7 @@
       "faction": "Alliance",
       "type": "City",
       "link": "https://warcraft.wiki.gg/wiki/Ironforge",
-      "screenshot": "/screenshots/ironforge.png",
+      "screenshot": "/screenshots/ironforge.webp",
       "activities": ["Visit the local tavern!", "Trade with merchants!"]
     },
     {
@@ -337,7 +337,7 @@
       "faction": "Alliance",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Loch%20Modan_(Classic)",
-      "screenshot": "/screenshots/loch-modan.png",
+      "screenshot": "/screenshots/loch-modan.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -347,7 +347,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Maraudon",
-      "screenshot": "/screenshots/maraudon.png",
+      "screenshot": "/screenshots/maraudon.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -357,7 +357,7 @@
       "faction": "Hydraxian Waterlords",
       "type": "Raid",
       "link": "https://warcraft.wiki.gg/wiki/Molten%20Core",
-      "screenshot": "/screenshots/molten-core.png",
+      "screenshot": "/screenshots/molten-core.webp",
       "activities": ["Defeat the bosses!", "Gather your raid group!"]
     },
     {
@@ -367,7 +367,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Moonglade",
-      "screenshot": "/screenshots/moonglade.png",
+      "screenshot": "/screenshots/moonglade.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -377,7 +377,7 @@
       "faction": "Horde",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Mulgore_(Classic)",
-      "screenshot": "/screenshots/mulgore.png",
+      "screenshot": "/screenshots/mulgore.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -387,7 +387,7 @@
       "faction": "Neutral",
       "type": "Raid",
       "link": "https://warcraft.wiki.gg/wiki/Naxxramas_(Classic)",
-      "screenshot": "/screenshots/naxxramas.png",
+      "screenshot": "/screenshots/naxxramas.webp",
       "activities": ["Defeat the bosses!", "Gather your raid group!"]
     },
     {
@@ -397,7 +397,7 @@
       "faction": "Neutral",
       "type": "Raid",
       "link": "https://warcraft.wiki.gg/wiki/Onyxia%27s%20Lair_(Classic)",
-      "screenshot": "/screenshots/onyxias-lair.png",
+      "screenshot": "/screenshots/onyxias-lair.webp",
       "activities": ["Defeat the bosses!", "Gather your raid group!"]
     },
     {
@@ -407,7 +407,7 @@
       "faction": "Horde",
       "type": "City",
       "link": "https://warcraft.wiki.gg/wiki/Orgrimmar",
-      "screenshot": "/screenshots/orgrimmar.png",
+      "screenshot": "/screenshots/orgrimmar.webp",
       "activities": ["Visit the local tavern!", "Trade with merchants!"]
     },
     {
@@ -417,7 +417,7 @@
       "faction": "Horde",
       "type": "Dungeon",
       "link": "https://warcraft.wiki.gg/wiki/Ragefire%20Chasm_(Classic)",
-      "screenshot": "/screenshots/ragefire-chasm.png",
+      "screenshot": "/screenshots/ragefire-chasm.webp",
       "activities": ["Clear the dungeon!", "Collect rare loot!"]
     },
     {
@@ -427,7 +427,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Razorfen%20Downs_(Classic)",
-      "screenshot": "/screenshots/razorfen-downs.png",
+      "screenshot": "/screenshots/razorfen-downs.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -437,7 +437,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Razorfen%20Kraul_(Classic)",
-      "screenshot": "/screenshots/razorfen-kraul.png",
+      "screenshot": "/screenshots/razorfen-kraul.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -447,7 +447,7 @@
       "faction": "Alliance",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Redridge%20Mountains_(Classic)",
-      "screenshot": "/screenshots/redridge-mountains.png",
+      "screenshot": "/screenshots/redridge-mountains.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -457,7 +457,7 @@
       "faction": "Cenarion Circle",
       "type": "Raid",
       "link": "https://warcraft.wiki.gg/wiki/Ruins%20of%20Ahn%27Qiraj",
-      "screenshot": "/screenshots/ruins-of-ahnqiraj.png",
+      "screenshot": "/screenshots/ruins-of-ahnqiraj.webp",
       "activities": ["Defeat the bosses!", "Gather your raid group!"]
     },
     {
@@ -467,7 +467,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Scarlet%20Monastery_(Classic)",
-      "screenshot": "/screenshots/scarlet-monastery.png",
+      "screenshot": "/screenshots/scarlet-monastery.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -477,7 +477,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Scholomance_(Classic)",
-      "screenshot": "/screenshots/scholomance.png",
+      "screenshot": "/screenshots/scholomance.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -487,7 +487,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Searing%20Gorge_(Classic)",
-      "screenshot": "/screenshots/searing-gorge.png",
+      "screenshot": "/screenshots/searing-gorge.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -497,7 +497,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Shadowfang%20Keep_(Classic)",
-      "screenshot": "/screenshots/shadowfang-keep.png",
+      "screenshot": "/screenshots/shadowfang-keep.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -507,7 +507,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Silithus_(Classic)",
-      "screenshot": "/screenshots/silithus.png",
+      "screenshot": "/screenshots/silithus.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -517,7 +517,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Silverpine%20Forest_(Classic)",
-      "screenshot": "/screenshots/silverpine-forest.png",
+      "screenshot": "/screenshots/silverpine-forest.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -527,7 +527,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Stonetalon%20Mountains_(Classic)",
-      "screenshot": "/screenshots/stonetalon-mountains.png",
+      "screenshot": "/screenshots/stonetalon-mountains.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -537,7 +537,7 @@
       "faction": "Alliance",
       "type": "City",
       "link": "https://warcraft.wiki.gg/wiki/Stormwind%20City",
-      "screenshot": "/screenshots/stormwind-city.png",
+      "screenshot": "/screenshots/stormwind-city.webp",
       "activities": ["Visit the local tavern!", "Trade with merchants!"]
     },
     {
@@ -547,7 +547,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Stranglethorn%20Vale_(Classic)",
-      "screenshot": "/screenshots/stranglethorn-vale.png",
+      "screenshot": "/screenshots/stranglethorn-vale.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -557,7 +557,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Stratholme_(Classic)",
-      "screenshot": "/screenshots/stratholme.png",
+      "screenshot": "/screenshots/stratholme.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -567,7 +567,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Sunken%20Temple_(Classic)",
-      "screenshot": "/screenshots/sunken-temple.png",
+      "screenshot": "/screenshots/sunken-temple.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -577,7 +577,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Swamp%20of%20Sorrows_(Classic)",
-      "screenshot": "/screenshots/swamp-of-sorrows.png",
+      "screenshot": "/screenshots/swamp-of-sorrows.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -587,7 +587,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Tanaris_(Classic)",
-      "screenshot": "/screenshots/tanaris.png",
+      "screenshot": "/screenshots/tanaris.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -597,7 +597,7 @@
       "faction": "Alliance",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Teldrassil_(Classic)",
-      "screenshot": "/screenshots/teldrassil.png",
+      "screenshot": "/screenshots/teldrassil.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -607,7 +607,7 @@
       "faction": "Horde",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/The%20Barrens",
-      "screenshot": "/screenshots/the-barrens.png",
+      "screenshot": "/screenshots/the-barrens.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -617,7 +617,7 @@
       "faction": "Neutral",
       "type": "Dungeon",
       "link": "https://warcraft.wiki.gg/wiki/The%20Deadmines",
-      "screenshot": "/screenshots/the-deadmines.png",
+      "screenshot": "/screenshots/the-deadmines.webp",
       "activities": ["Clear the dungeon!", "Collect rare loot!"]
     },
     {
@@ -627,7 +627,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/The%20Great%20Sea",
-      "screenshot": "/screenshots/the-great-sea.png",
+      "screenshot": "/screenshots/the-great-sea.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -637,7 +637,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/The%20Hinterlands",
-      "screenshot": "/screenshots/the-hinterlands.png",
+      "screenshot": "/screenshots/the-hinterlands.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -647,7 +647,7 @@
       "faction": "Alliance",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/The%20Stockade",
-      "screenshot": "/screenshots/the-stockade.png",
+      "screenshot": "/screenshots/the-stockade.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -657,7 +657,7 @@
       "faction": "Neutral",
       "type": "Dungeon",
       "link": "https://warcraft.wiki.gg/wiki/The%20Temple%20of%20Atal%27Hakkar",
-      "screenshot": "/screenshots/the-temple-of-atalhakkar.png",
+      "screenshot": "/screenshots/the-temple-of-atalhakkar.webp",
       "activities": ["Clear the dungeon!", "Collect rare loot!"]
     },
     {
@@ -667,7 +667,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/The%20Veiled%20Sea",
-      "screenshot": "/screenshots/the-veiled-sea.png",
+      "screenshot": "/screenshots/the-veiled-sea.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -677,7 +677,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Thousand%20Needles_(Classic)",
-      "screenshot": "/screenshots/thousand-needles.png",
+      "screenshot": "/screenshots/thousand-needles.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -687,7 +687,7 @@
       "faction": "Horde",
       "type": "City",
       "link": "https://warcraft.wiki.gg/wiki/Thunder%20Bluff",
-      "screenshot": "/screenshots/thunder-bluff.png",
+      "screenshot": "/screenshots/thunder-bluff.webp",
       "activities": ["Visit the local tavern!", "Trade with merchants!"]
     },
     {
@@ -697,7 +697,7 @@
       "faction": "Horde",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Tirisfal%20Glades_(Classic)",
-      "screenshot": "/screenshots/tirisfal-glades.png",
+      "screenshot": "/screenshots/tirisfal-glades.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -707,7 +707,7 @@
       "faction": "Neutral",
       "type": "Group",
       "link": "https://warcraft.wiki.gg/wiki/Uldaman",
-      "screenshot": "/screenshots/uldaman.png",
+      "screenshot": "/screenshots/uldaman.webp",
       "activities": ["Clear the dungeon!", "Collect rare loot!"]
     },
     {
@@ -717,7 +717,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Un%27Goro%20Crater_(Classic)",
-      "screenshot": "/screenshots/ungoro-crater.png",
+      "screenshot": "/screenshots/ungoro-crater.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -727,7 +727,7 @@
       "faction": "Horde",
       "type": "City",
       "link": "https://warcraft.wiki.gg/wiki/Undercity",
-      "screenshot": "/screenshots/undercity.png",
+      "screenshot": "/screenshots/undercity.webp",
       "activities": ["Visit the local tavern!", "Trade with merchants!"]
     },
     {
@@ -737,7 +737,7 @@
       "faction": "Neutral",
       "type": "Dungeon",
       "link": "https://warcraft.wiki.gg/wiki/Wailing%20Caverns",
-      "screenshot": "/screenshots/wailing-caverns.png",
+      "screenshot": "/screenshots/wailing-caverns.webp",
       "activities": ["Clear the dungeon!", "Collect rare loot!"]
     },
     {
@@ -747,7 +747,7 @@
       "faction": "Neutral",
       "type": "Battleground",
       "link": "https://warcraft.wiki.gg/wiki/Warsong%20Gulch",
-      "screenshot": "/screenshots/warsong-gulch.png",
+      "screenshot": "/screenshots/warsong-gulch.webp",
       "activities": ["Join the battle!", "Capture the flag!"]
     },
     {
@@ -757,7 +757,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Western%20Plaguelands_(Classic)",
-      "screenshot": "/screenshots/western-plaguelands.png",
+      "screenshot": "/screenshots/western-plaguelands.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -767,7 +767,7 @@
       "faction": "Alliance",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Westfall_(Classic)",
-      "screenshot": "/screenshots/westfall.png",
+      "screenshot": "/screenshots/westfall.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -777,7 +777,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Wetlands_(Classic)",
-      "screenshot": "/screenshots/wetlands.png",
+      "screenshot": "/screenshots/wetlands.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -787,7 +787,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Winterspring_(Classic)",
-      "screenshot": "/screenshots/winterspring.png",
+      "screenshot": "/screenshots/winterspring.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -797,7 +797,7 @@
       "faction": "Neutral",
       "type": "Zone",
       "link": "https://warcraft.wiki.gg/wiki/Zul%27Farrak",
-      "screenshot": "/screenshots/zulfarrak.png",
+      "screenshot": "/screenshots/zulfarrak.webp",
       "activities": ["Explore the region!", "Take a scenic tour!"]
     },
     {
@@ -807,7 +807,7 @@
       "faction": "Neutral",
       "type": "Raid",
       "link": "https://warcraft.wiki.gg/wiki/Zul%27Gurub_(Classic)",
-      "screenshot": "/screenshots/zulgurub.png",
+      "screenshot": "/screenshots/zulgurub.webp",
       "activities": ["Defeat the bosses!", "Gather your raid group!"]
     }
   ]

@@ -34,7 +34,7 @@ export default function RegionPage() {
           ...data,
           screenshot: data.screenshot
             ? data.screenshot
-            : "/placeholder-screenshot.png", // Use provided screenshot or placeholder
+            : "/placeholder-screenshot.webp", // Use provided screenshot or placeholder
           activities: data.activities || [
             "Explore the region!",
             "Take a scenic tour!",
