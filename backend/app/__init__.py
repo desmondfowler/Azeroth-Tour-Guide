@@ -1,3 +1,4 @@
+import logging
 from flask import Flask
 from pathlib import Path
 
@@ -8,6 +9,15 @@ def create_app():
     STATIC_DIR = BASE_DIR.parent / "frontend" / "dist"  # Project root/frontend/dist
 
     app = Flask(__name__, static_folder=None)
+
+    # Configure logger
+    handler = logging.StreamHandler()
+    handler.setLevel(logging.DEBUG)
+    formatter = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s")
+    handler.setFormatter(formatter)
+    app.logger.handlers.clear()  # Clear default handlers
+    app.logger.addHandler(handler)
+    app.logger.setLevel(logging.DEBUG)  # Set app logger to DEBUG
 
     # Load regions data and attach to app config
     from .utils import load_regions
