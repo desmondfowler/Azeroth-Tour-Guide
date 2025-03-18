@@ -16,8 +16,12 @@ def register_frontend_routes(app):
         app.logger.debug(f"Checking if path exists: {full_path}")
         if path != "" and os.path.exists(full_path):
             app.logger.debug(f"Serving static file: {path}")
-            return send_from_directory(FRONTEND_DIR, path)
+            response = send_from_directory(FRONTEND_DIR, path)
+            response.headers["Cache-Control"] = "public, max-age=31536000"
+            return response
         app.logger.debug("Serving index.html")
         index_path = os.path.join(FRONTEND_DIR, "index.html")
         app.logger.debug(f"Index.html path: {index_path}")
-        return send_from_directory(FRONTEND_DIR, "index.html")
+        response = send_from_directory(FRONTEND_DIR, "index.html")
+        response.headers["Cache-Control"] = "no-cache"  # Don’t cache index.html
+        return response
