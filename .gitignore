@@ -80,3 +80,5 @@ Thumbs.db
 # Pipfile.lock
 # .pdm.toml
 
+.ts-declarations/
+
