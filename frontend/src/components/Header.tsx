@@ -1,4 +1,3 @@
-import "../css/tailwind.css";
 import { useState } from "react"; // For mobile menu toggle
 import RandomRegionButton from "./RandomRegionButton"; // Import the button component
 
@@ -7,13 +6,13 @@ export default function Header() {
 
   return (
     <header className="bg-gray-950 border-b border-indigo-600 shadow-xl sticky top-0 z-10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[80vw] py-6 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="/">
               <img
-                src="/atg-logo.png"
+                src="/atg-logo.webp"
                 className="h-14 w-auto rounded-full border-2 border-amber-700 shadow-md"
                 alt="Azeroth Tour Guide logo"
               />

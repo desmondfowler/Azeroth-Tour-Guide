@@ -1,4 +1,4 @@
-# .gitignore for Flask/React project with Python venv
+# .gitignore for Flask/React project with Python venv and TypeScript
 # Project structure: ./backend (Flask), ./frontend (React), .venv (virtual env)
 
 # Python General
@@ -28,23 +28,18 @@ backend/*.log
 backend/local_settings.py
 backend/db.sqlite3
 backend/db.sqlite3-journal
-# Get rid of iterated JSONs from scripts in data-manipulation
 backend/data/archive/
 
 # React Frontend (./frontend/)
 frontend/node_modules/
+frontend/dist/
 frontend/*.log
 frontend/logs/
-frontend/*.pnp
-frontend/*.pnp.js
-frontend/build/
-frontend/coverage/
 frontend/npm-debug.log*
 frontend/yarn-debug.log*
 frontend/yarn-error.log*
-# Get rid of Tailwind
-frontend/src/css/*.css
-
+frontend/.ts-declarations/          
+frontend/*.tsbuildinfo              
 
 # Development Tools
 .pytest_cache/
@@ -75,8 +70,5 @@ pip-delete-this-directory.txt
 Thumbs.db
 
 # Project-Specific Extras
-# Uncomment or add any custom ignores below as needed
-# poetry.lock
-# Pipfile.lock
-# .pdm.toml
-
+# poetry.lock          
+package-lock.json    
