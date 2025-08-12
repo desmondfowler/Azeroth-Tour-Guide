@@ -1,15 +1,15 @@
 # Azeroth Tour Guide - Project Plan
 
-As of writing, the idea is to build a full-stack web application with Python and React, eventually Dockerize it, deploy it with Docker and Kubernetes, and automate via GitHub Actions CI/CD. This project aims to serve as a portfolio piece to showcase skills in Python development, modern DevOps practices, and secure, scalable web application design. Original plan was to do it in Rust, and I may eventually re-write bits and pieces to that, but Rust full-stack is a bit too much.
+As of writing, the idea is to build a full-stack web application with Java (Spring Boot) and React, eventually Dockerize it, deploy it with Docker and Kubernetes, and automate via GitHub Actions CI/CD. This project aims to serve as a portfolio piece to showcase skills in Java development, modern DevOps practices, and secure, scalable web application design. Original plan was to do it in Rust, and I may eventually re-write bits and pieces to that, but Rust full-stack is a bit too much. I may try to incorporate some Go as well, as I've been enjoying playing with that. 
 
 ## Project Overview
 
-Azeroth Tour Guide will be a vacation planning website for the Warcraft universe. Explore an interactive map of Azeroth, browse detailed location listings, and search for your next adventure in Kalimdor or the Eastern Kingdoms. This project demonstrates a complete development lifecycle—from initial design to production deployment—while emphasizing Python proficiency and industry-standard infrastructure practices.
+Azeroth Tour Guide will be a vacation planning website for the Warcraft universe. Explore an interactive map of Azeroth, browse detailed location listings, and search for your next adventure in Kalimdor or the Eastern Kingdoms. This project demonstrates a complete development lifecycle, from initial design to production deployment, while emphasizing Java proficiency and industry-standard infrastructure practices.
 
 ## Tech Stack
 
-- **Backend**: Python 3.12 with Flask
-- **Frontend**: React with Tailwind CSS
+- **Backend**: Java Spring Boot
+- **Frontend**: React 
 - **Database**: JSON (scraped from [Warcraft Wiki](https://warcraft.wiki.gg)), planning MySQL or PostgreSQL
 - **Containerization**: Docker
 - **Orchestration**: Kubernetes (HomeLab, then AWS EKS)
@@ -25,19 +25,19 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 - **Interactive Map**
 
-  - _STATIC_: Start with an SVG of Azeroth. Kalimdor, Eastern Kingdoms, the classics. _Implemented via static PNG_
+  - _STATIC_: Start with an SVG of Azeroth. Kalimdor, Eastern Kingdoms.
   - _NEXT_: Clickable regions that link to location details.
   - _NEXT_: Dynamic map with highlights.
   - _NEXT_: Add in new zones? I hear the Dragon Isles are nice this time of year.
 
 - **Location Listings**
 
-  - _STATIC_: Hardcoded list. Think Orgrimmar, Stormwind, etc. _Implemented via Region pages (e.g. `/The&20Barrens`)_
-  - _NEXT_: Add descriptions, maybe pull some lore from WoWpedia. _Partially implemented through region pages with description and faction info_
-  - _NEXT_: Toss in screenshots from WoW for images. _Partially implemented through placeholders; API will serve real WoW shots later._
+  - _STATIC_: Hardcoded list. Orgrimmar, Stormwind, etc. 
+  - _NEXT_: Add descriptions, maybe pull some lore from WoWpedia. 
+  - _NEXT_: Toss in screenshots from WoW for images.
 
 - **Search Functionality**
-  - _STATIC_: A search bar that just sits there for now. _Partially immplemented through random region button, full search bar up next!_
+  - _STATIC_: A search bar that just sits there for now.
   - _NEXT_: Filter locations based on what’s typed.
   - _NEXT_: Highlight matches on the dynamic map.
 
@@ -49,8 +49,8 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 2. **Frontend**
 
-   - Use **React** for the frontend. _(Done pages for home, Azeroth, contact, and regions)_
-   - Ensure mobile-responsive design so it doesn’t suck on my phone. _(Header has a mobile menu)_
+   - Use **React** for the frontend.
+   - Ensure mobile-responsive design so it doesn’t suck on my phone.
 
 3. **Frontend Testing**
 
@@ -58,17 +58,17 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 4. **Backend**
 
-   - Use **Python with Flask** for the server. _(Done—API serves region data!)_
-   - Start with **MySQL** for the database. _(Still using JSON for now. MySQL/PostgreSQL planned.)_
-   - Build a REST API to feed the frontend. _(Done—endpoints for regions are working!)_
+   - Use **Java Spring Boot** for the server. 
+   - Start with **MySQL** for the database.
+   - Build a REST API to feed the frontend. 
 
 5. **Integration**
 
-   - Fetch API data to replace static content. _(Done—region pages fetch from the API!)_
+   - Fetch API data to replace static content. 
 
 6. **Backend Testing**
 
-   - Write some `pytest` unit tests for the API. _Basic tests started, more to come._
+   - Write some unit tests for the API.
    - Smash frontend and backend together, pray it works.
 
 7. **Deploy**
@@ -79,18 +79,16 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 - **Core Ideas**: Themed trips like “Undead Road Trip” or “Dwarven Ale Crawl.” Inn and tavern recs. Maybe a fake booking system?
 - **UX**: Logins, custom recs, sharing, maybe Darkmoon Faire event alerts.
-- **Cash Flow?**: No clue yet—ads? Fake premium tiers? Warcraft gold donations?
+- **Fake Cash Flow?**: No clue yet. Fake premium tiers? Warcraft gold donations?
 
 ## Setup and Installation
 
 ### Prerequisites
 
-- Python 3.12 (or higher)
-- Node.js 18.x (for React)
-- Tailwind CSS (for styling the frontend)
-- Poetry (for Python dependency management)
-- Docker
-- Kubernetes CLI
+- Java version tbd
+- Node.js 18 or higher (for React)
+- Docker (eventually)
+- Kubernetes CLI (eventually)
 - MySQL (eventually)
 
 ### ⚠️ WSL Users (Windows Subsystem for Linux)
@@ -103,7 +101,7 @@ If running in WSL, ensure:
 
 ### Local Development
 
-These steps assume Windows, I will create Linux steps at some point (but you probably know how to translate already).
+These steps assume WSL but should be very similar on any Unix OS. 
 
 1. **Clone the Repo**
 
@@ -115,26 +113,19 @@ These steps assume Windows, I will create Linux steps at some point (but you pro
 2. **Backend Setup**
 
    - Go to backend: `cd backend`
-   - Install deps: `poetry install`
-   - Run Flask: `poetry run python run.py` (starts the server)
+   - Install deps: ``
+   - Run: `` (starts the server)
 
 3. **Frontend Setup**
 
    - Go to frontend: `cd frontend`
    - Install deps: `npm install`
-   - Generate Tailwind: `npm run gen-tailwind` (this runs with --watch for dev purposes right now, will change so it runs once when final product is ready)
-   - Build static files that Flask serves: `npx vite build`
+   - Build static files that backend serves: `npx vite build`
 
 4. **Database**
-   - Right now, I’m using a JSON with scraped data from [https://warcraft.wiki.gg](https://warcraft.wiki.gg). _(Done!)_
-   - Eventually... Set up MySQL (then PostgreSQL) and update the backend config.
+   - Right now, I’m using a JSON with scraped data from [https://warcraft.wiki.gg](https://warcraft.wiki.gg). 
+   - Eventually... Set up MySQL (then PostgreSQL?) and update the backend config.
    - Tweak the backend config with the connection string (like mysql://user:password@localhost:3306/azeroth_db).
-
-### Testing
-
-- Backend Tests: `cd backend && poetry run pytest`
-  - This is currently just one test that makes sure `app is not None`.
-- Frontend Tests: Planned with Jest? Or maybe Vitest since I used Vite.
 
 ### Deployment
 
@@ -142,4 +133,4 @@ To be continued...
 
 ## License
 
-MIT License—do whatever, just don’t sue me.
+MIT License. Do whatever, just don’t sue me.
