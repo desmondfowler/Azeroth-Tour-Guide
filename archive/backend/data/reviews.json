@@ -1,0 +1,104 @@
+{
+  "reviews": [
+    {
+      "text": "I used this service to plan my trip back to Menethil Harbor, and it made things painless! Except for the encroaching orcs, anyway... But that's not the service's fault!",
+      "author": "Jaina Proudmoore",
+      "id": 0
+    },
+    {
+      "text": "Booking a stay in Orgrimmar was a breeze. The guide even warned me about the heat—perfect for a tauren like me!",
+      "author": "Baine Bloodhoof",
+      "id": 1
+    },
+    {
+      "text": "The interactive map helped me navigate the plaguelands. Still got lost, but at least I looked stylish doing it.",
+      "author": "Sylvanas Windrunner",
+      "id": 2
+    },
+    {
+      "text": "Found the best taverns in Stormwind thanks to this guide. The ale recommendations were spot on!",
+      "author": "Anduin Wrynn",
+      "id": 3
+    },
+    {
+      "text": "Tried to visit the Barrens. Service was great, but the chatty kodo herds weren't in the brochure!",
+      "author": "Thrall",
+      "id": 4
+    },
+    {
+      "text": "Azeroth Tour Guide got me to Darnassus before the tree burned. Timing was impeccable!",
+      "author": "Tyrande Whisperwind",
+      "id": 5
+    },
+    {
+      "text": "Planned a raid on Blackrock Mountain. The tips on avoiding lava were a lifesaver—literally.",
+      "author": "Varian Wrynn",
+      "id": 6
+    },
+    {
+      "text": "The Eastern Kingdoms tour was flawless. Even got to dodge some pesky Defias bandits!",
+      "author": "Khadgar",
+      "id": 7
+    },
+    {
+      "text": "Booked a trip to Thunder Bluff. The scenic lift ride was a highlight—highly recommend!",
+      "author": "Cairne Bloodhoof",
+      "id": 8
+    },
+    {
+      "text": "Explored Kalimdor with ease. The guide didn't mention murlocs, but I survived!",
+      "author": "Vol'jin",
+      "id": 9
+    },
+    {
+      "text": "Used this service to scout Stranglethorn Vale. Found booty Bay in no time—perfect for a pirate's shore leave!",
+      "author": "Captain Falric Greymane",
+      "id": 10
+    },
+    {
+      "text": "Scheduled a hunt in Ashenvale. The guide led me straight to the best game—those nightsabers never saw me coming!",
+      "author": "Shandris Feathermoon",
+      "id": 11
+    },
+    {
+      "text": "Booked passage through the Dark Portal. Service was reliable, even if the demons weren't thrilled to see me.",
+      "author": "Danath Trollbane",
+      "id": 12
+    },
+    {
+      "text": "Found a quiet spot in Feralas to meditate. The directions were flawless—peace at last, away from the grunts!",
+      "author": "Hamuu Runetotem",
+      "id": 13
+    },
+    {
+      "text": "Explored the Undercity's back alleys with this guide. Smelly, sure, but the shortcuts saved me hours!",
+      "author": "Nathanos Marris",
+      "id": 14
+    },
+    {
+      "text": "Planned a fishing trip off the Barrens coast. Caught a big one—guide didn't warn me about the sharks, though!",
+      "author": "Gazlowe",
+      "id": 15
+    },
+    {
+      "text": "Took a pilgrimage to Light's Hope Chapel. The route avoided most Scourge—blessings upon this service!",
+      "author": "Tirion Fordring",
+      "id": 16
+    },
+    {
+      "text": "Snuck into Ironforge for some dwarven stout. The map got me past the guards—sneaky and brilliant!",
+      "author": "Rokhan",
+      "id": 17
+    },
+    {
+      "text": "Visited the Sunken Temple. Guide warned me about the trolls, but the treasure tips were worth it!",
+      "author": "Magni Bronzebeard",
+      "id": 18
+    },
+    {
+      "text": "Tracked down some rare herbs in Felwood. Service pointed me right to 'em—my potions thank you!",
+      "author": "Finkle Einhorn",
+      "id": 19
+    }
+  ]
+}
