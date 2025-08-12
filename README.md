@@ -85,7 +85,8 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 ### Prerequisites
 
-- Java version tbd
+- Java 17 or later
+- Gradle 7.5 or later
 - Node.js 18 or higher (for React)
 - Docker (eventually)
 - Kubernetes CLI (eventually)
