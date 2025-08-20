@@ -18,8 +18,7 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 ## Current Status
 
-- **Done**: Static map, region pages with descriptions and screenshots, random region button, basic backend test.
-- **Next**: Interactive map, full search, database switch, more tests, deployment.
+- None. Basic backend setup.
 
 ## MVP Features (Bare Essentials)
 
@@ -45,16 +44,16 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 1. **Scope MVP**
 
-   - Static map, simple location list, and a barebones search. Keep it small to start.
+   - Static map, simple location list, and a barebones search.
 
 2. **Frontend**
 
    - Use **React** for the frontend.
-   - Ensure mobile-responsive design so it doesn’t suck on my phone.
+   - Ensure mobile-responsive design.
 
 3. **Frontend Testing**
 
-   - Throw it at Chrome, Firefox, maybe my phone, see what breaks. Ask friends for feedback.
+   - Chrome, Firefox, Android/IPhone browser testing, see what breaks. Ask friends for feedback?
 
 4. **Backend**
 
@@ -69,11 +68,10 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 6. **Backend Testing**
 
    - Write some unit tests for the API.
-   - Smash frontend and backend together, pray it works.
 
 7. **Deploy**
    - Dockerize it and deploy on HomeLab Kubernetes first.
-   - Add monitoring so I know if it dies in the middle of the night.
+   - Add monitoring.
 
 ## Future Features
 
@@ -85,20 +83,12 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 ### Prerequisites
 
-- Java 17 or later
-- Gradle 7.5 or later
+- Java 21 or later
+- Gradle 9.0 or later
 - Node.js 18 or higher (for React)
 - Docker (eventually)
 - Kubernetes CLI (eventually)
 - MySQL (eventually)
-
-### ⚠️ WSL Users (Windows Subsystem for Linux)
-
-If running in WSL, ensure:
-
-- You have installed Node.js inside WSL (not using the Windows version).
-- `npm` and `tsc` are running from WSL (`which node` should not point to `/mnt/c/`).
-- Run `npm install` **inside WSL** before running `npm run build`.
 
 ### Local Development
 
@@ -134,4 +124,4 @@ To be continued...
 
 ## License
 
-MIT License. Do whatever, just don’t sue me.
+MIT License.
