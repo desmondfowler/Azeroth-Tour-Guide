@@ -1,18 +1,18 @@
 # Azeroth Tour Guide - Project Plan
 
-As of writing, the idea is to build a full-stack web application with Java (Spring Boot) and React, eventually Dockerize it, deploy it with Docker and Kubernetes, and automate via GitHub Actions CI/CD. This project aims to serve as a portfolio piece to showcase skills in Java development, modern DevOps practices, and secure, scalable web application design. Original plan was to do it in Rust, and I may eventually re-write bits and pieces to that, but Rust full-stack is a bit too much. I may try to incorporate some Go as well, as I've been enjoying playing with that. 
+The idea is to build a full-stack web application with Python (Flask) and React, eventually Dockerize it, deploy it with Docker and Kubernetes, and automate via GitHub Actions CI/CD. This project aims to serve as a portfolio piece to showcase skills in Python development, modern DevOps practices, and secure, scalable web application design.
 
 ## Project Overview
 
-Azeroth Tour Guide will be a vacation planning website for the Warcraft universe. Explore an interactive map of Azeroth, browse detailed location listings, and search for your next adventure in Kalimdor or the Eastern Kingdoms. This project demonstrates a complete development lifecycle, from initial design to production deployment, while emphasizing Java proficiency and industry-standard infrastructure practices.
+Azeroth Tour Guide will be a vacation planning website for the Warcraft universe. Explore an interactive map of Azeroth, browse detailed location listings, and search for your next adventure in Kalimdor or the Eastern Kingdoms.
 
 ## Tech Stack
 
-- **Backend**: Java Spring Boot
-- **Frontend**: React 
+- **Backend**: Python Flask
+- **Frontend**: React
 - **Database**: JSON (scraped from [Warcraft Wiki](https://warcraft.wiki.gg)), planning MySQL or PostgreSQL
 - **Containerization**: Docker
-- **Orchestration**: Kubernetes (HomeLab, then AWS EKS)
+- **Orchestration**: Kubernetes (HomeLab)
 - **CI/CD**: GitHub Actions
 - **Cloud**: AWS (if budget allows)
 
@@ -27,12 +27,12 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
   - _STATIC_: Start with an SVG of Azeroth. Kalimdor, Eastern Kingdoms.
   - _NEXT_: Clickable regions that link to location details.
   - _NEXT_: Dynamic map with highlights.
-  - _NEXT_: Add in new zones? I hear the Dragon Isles are nice this time of year.
+  - _NEXT_: Add in new zones.
 
 - **Location Listings**
 
-  - _STATIC_: Hardcoded list. Orgrimmar, Stormwind, etc. 
-  - _NEXT_: Add descriptions, maybe pull some lore from WoWpedia. 
+  - _STATIC_: Hardcoded list. Orgrimmar, Stormwind, etc.
+  - _NEXT_: Add descriptions, maybe pull some lore from WoWpedia.
   - _NEXT_: Toss in screenshots from WoW for images.
 
 - **Search Functionality**
@@ -57,13 +57,13 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 4. **Backend**
 
-   - Use **Java Spring Boot** for the server. 
+   - Use **Python** for the server.
    - Start with **MySQL** for the database.
-   - Build a REST API to feed the frontend. 
+   - Build a REST API to feed the frontend.
 
 5. **Integration**
 
-   - Fetch API data to replace static content. 
+   - Fetch API data to replace static content.
 
 6. **Backend Testing**
 
@@ -75,7 +75,7 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 ## Future Features
 
-- **Core Ideas**: Themed trips like “Undead Road Trip” or “Dwarven Ale Crawl.” Inn and tavern recs. Maybe a fake booking system?
+- **Core Ideas**: Themed trips like “Undead Graveyard Tour” or “Dwarven Pub Crawl.” Inn and tavern recs. Maybe a fake booking system?
 - **UX**: Logins, custom recs, sharing, maybe Darkmoon Faire event alerts.
 - **Fake Cash Flow?**: No clue yet. Fake premium tiers? Warcraft gold donations?
 
@@ -83,8 +83,7 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 ### Prerequisites
 
-- Java 21 or later
-- Gradle 9.0 or later
+- Python 3.x
 - Node.js 18 or higher (for React)
 - Docker (eventually)
 - Kubernetes CLI (eventually)
@@ -92,7 +91,7 @@ Azeroth Tour Guide will be a vacation planning website for the Warcraft universe
 
 ### Local Development
 
-These steps assume WSL but should be very similar on any Unix OS. 
+These steps assume WSL but should be very similar on any Unix OS.
 
 1. **Clone the Repo**
 
@@ -104,17 +103,19 @@ These steps assume WSL but should be very similar on any Unix OS.
 2. **Backend Setup**
 
    - Go to backend: `cd backend`
-   - Install deps: ``
-   - Run: `` (starts the server)
+   - Create venv: `python3 -m venv venv`
+   - Activate: `source venv/bin/activate`
+   - Install deps: `pip install -r requirements`
+   - Run: `python3 run.py` (starts the server)
 
 3. **Frontend Setup**
 
    - Go to frontend: `cd frontend`
    - Install deps: `npm install`
-   - Build static files that backend serves: `npx vite build`
+   - Build static files that backend serves: `nothing yet`
 
 4. **Database**
-   - Right now, I’m using a JSON with scraped data from [https://warcraft.wiki.gg](https://warcraft.wiki.gg). 
+   - Right now, I’m using a JSON with scraped data from [https://warcraft.wiki.gg](https://warcraft.wiki.gg).
    - Eventually... Set up MySQL (then PostgreSQL?) and update the backend config.
    - Tweak the backend config with the connection string (like mysql://user:password@localhost:3306/azeroth_db).
 
