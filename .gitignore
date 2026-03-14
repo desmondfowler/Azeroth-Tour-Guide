@@ -1,74 +1,11 @@
-# .gitignore for Flask/React project with Python venv and TypeScript
-# Project structure: ./backend (Flask), ./frontend (React), .venv (virtual env)
-
-# Python General
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-dist/
-*.egg-info/
-*.egg
-MANIFEST
-
 # Virtual Environment
 .venv/
+# env files
 env/
 venv/
 ENV/
 *.env
 *.env.*
 
-# Flask Backend (./backend/)
-backend/instance/
-backend/.webassets-cache
-backend/*.log
-backend/local_settings.py
-backend/db.sqlite3
-backend/db.sqlite3-journal
-backend/data/archive/
-
-# React Frontend (./frontend/)
-frontend/node_modules/
-frontend/dist/
-frontend/*.log
-frontend/logs/
-frontend/npm-debug.log*
-frontend/yarn-debug.log*
-frontend/yarn-error.log*
-frontend/.ts-declarations/          
-frontend/*.tsbuildinfo              
-
-# Development Tools
-.pytest_cache/
-.coverage
-.coverage.*
-.mypy_cache/
-.ruff_cache/
-.pytype/
-*.cover
-htmlcov/
-.tox/
-.nox/
-
 # Logs and Temp Files
 *.log
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Editor/IDE Files
-.idea/
-*.sublime*
-.spyderproject
-.spyproject
-.ropeproject
-
-# OS Files
-.DS_Store
-Thumbs.db
-
-# Project-Specific Extras
-# poetry.lock          
-package-lock.json    
