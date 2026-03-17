@@ -18,3 +18,23 @@ Done when:
 - the database schema exists
 - seeded content can be loaded repeatably
 - production deploy works
+
+## Epic 2: Content model and starter dataset
+
+Define what a good entry looks like and load the first real content.
+
+Includes:
+
+- location content template
+- route content template
+- zone records
+- first batch of curated entries
+- validation for obviously bad or incomplete content
+
+Done when:
+
+- there is a usable starter dataset
+- entries follow a consistent structure
+- routes can reference real locations
+
+## Epic 3:
